@@ -1,0 +1,88 @@
+# External framework definitions
+# Each entry defines a prefix used in taxonomy.yaml mappings
+
+frameworks:
+
+  mit:
+    name: "MIT AI Risk Repository"
+    version: "v4 (April 2025)"
+    url: "https://airisk.mit.edu"
+    paper: "Slattery et al., Patterns (Cell Press), March 2026"
+    license: "CC BY 4.0"
+    base_uri: "https://airisk.mit.edu/domain/"
+    note: >
+      No machine-readable vocabulary exists. URIs are constructed
+      by Eticas for mapping purposes and reference the domain/subdomain
+      numbering in the published taxonomy.
+
+  nist_600:
+    name: "NIST AI 600-1 — Generative AI Risk Profile"
+    version: "1.0 (July 2024)"
+    url: "https://doi.org/10.6028/NIST.AI.600-1"
+    base_uri: "https://taxonomy.eticas.ai/external/nist-ai-600-1/"
+    note: >
+      No machine-readable vocabulary exists. URIs are minted by Eticas
+      and reference the 12 risk categories defined in AI 600-1.
+
+  nist_rmf:
+    name: "NIST AI Risk Management Framework (AI 100-1)"
+    version: "1.0 (January 2023)"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
+    base_uri: "https://taxonomy.eticas.ai/external/nist-ai-rmf/"
+    note: >
+      Mappings reference the seven Trustworthy AI characteristics
+      and core function subcategories (e.g., GV-1.1, MS-2.11).
+
+  oecd:
+    name: "OECD AI Principles"
+    version: "2024 revision"
+    url: "https://oecd.ai"
+    base_uri: "https://taxonomy.eticas.ai/external/oecd-ai/"
+    note: >
+      Mappings reference the five OECD AI Principles.
+      The OECD Classification Framework dimensions are not mapped
+      at concept level but inform the lifecycle stage structure.
+
+  dpv_ai:
+    name: "W3C Data Privacy Vocabulary — AI Extension"
+    version: "2.3 (February 2026)"
+    url: "https://w3c.github.io/dpv/2.3/ai/"
+    repository: "https://github.com/w3c/dpv"
+    base_uri: "https://w3id.org/dpv/ai#"
+    note: >
+      Machine-readable (RDF/SKOS). Provides the richest set of
+      concept-level URIs for direct linking. Also covers the
+      EU AI Act via the legal/eu/aiact extension.
+
+  iso_42001:
+    name: "ISO/IEC 42001:2023 — AI Management System"
+    url: "https://www.iso.org/standard/81230.html"
+    base_uri: "https://taxonomy.eticas.ai/external/iso-42001/"
+    note: >
+      Paid standard. Mappings reference Annex A control domains
+      by section number. No machine-readable vocabulary exists.
+
+  eu_ai_act:
+    name: "EU AI Act (Regulation 2024/1689)"
+    url: "https://artificialintelligenceact.eu"
+    base_uri: "https://w3id.org/dpv/legal/eu/aiact#"
+    note: >
+      Linked via the W3C DPV EU AI Act extension, which provides
+      machine-readable RDF encoding of the Act's concepts.
+
+  airo:
+    name: "AIRO — AI Risk Ontology"
+    url: "https://w3id.org/airo"
+    repository: "https://github.com/DelaramGlp/airo"
+    base_uri: "https://w3id.org/airo#"
+    note: >
+      OWL 2 ontology grounded in ISO 31000/23894. Available for
+      deeper ontological linking if needed.
+
+  vair:
+    name: "VAIR — Vocabulary of AI Risks"
+    url: "https://w3id.org/vair"
+    repository: "https://github.com/DelaramGlp/vair"
+    base_uri: "https://w3id.org/vair#"
+    note: >
+      SKOS instantiation of AIRO with populated risk hierarchies.

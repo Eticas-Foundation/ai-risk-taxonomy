@@ -1,0 +1,17 @@
+title: Eticas AI Risk Taxonomy
+description: >
+  A unified, machine-readable AI risk taxonomy for use across
+  Eticas audit methodologies, assessment frameworks, and
+  reporting outputs.
+baseurl: ""
+url: "https://taxonomy.eticas.ai"
+
+theme: minima
+
+exclude:
+  - build/
+  - src/
+  - dist/
+  - Gemfile
+  - Gemfile.lock
+  - README.md

@@ -1,0 +1,20 @@
+---
+layout: concept
+title: "Unlawful collection or processing of personal data"
+id: unlawful-data-processing
+uri: https://taxonomy.eticas.ai/risk/unlawful-data-processing
+type: subcategory
+scope: ALL
+broader: privacy-confidentiality
+---
+
+# Unlawful collection or processing of personal data
+
+`https://taxonomy.eticas.ai/risk/unlawful-data-processing`
+
+Collection, storage, or processing of personal data without adequate legal basis, consent, or compliance with applicable data protection regulations.
+
+**Applies to:** ALL  
+**Lifecycle stages:** Pre Processing
+
+**Parent category:** [Privacy & Confidentiality](privacy-confidentiality)

@@ -1,0 +1,12 @@
+# Taxonomy configuration
+
+namespace: "https://taxonomy.eticas.ai/risk/"
+version: "0.1.0"
+title: "Eticas AI Risk Taxonomy"
+description: >
+  A unified AI risk taxonomy for use across Eticas audit
+  methodologies, assessment frameworks, and reporting outputs.
+publisher: "Eticas"
+publisher_url: "https://eticas.ai"
+license: "https://creativecommons.org/licenses/by/4.0/"
+language: "en"

@@ -1,0 +1,39 @@
+name: Build and publish taxonomy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r build/requirements.txt
+
+      - name: Convert YAML to SKOS
+        run: python build/convert.py
+
+      - name: Validate SKOS
+        run: python build/validate.py
+
+      - name: Generate concept pages
+        run: python build/generate_pages.py
+
+      - name: Commit generated files
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add risk/ dist/
+          git diff --staged --quiet || git commit -m "Regenerate taxonomy outputs"
+          git push

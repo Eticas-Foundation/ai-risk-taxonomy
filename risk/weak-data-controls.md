@@ -1,0 +1,20 @@
+---
+layout: concept
+title: "Weak data retention, erasure, and access controls"
+id: weak-data-controls
+uri: https://taxonomy.eticas.ai/risk/weak-data-controls
+type: subcategory
+scope: ALL
+broader: privacy-confidentiality
+---
+
+# Weak data retention, erasure, and access controls
+
+`https://taxonomy.eticas.ai/risk/weak-data-controls`
+
+Insufficient policies or technical measures for data retention limits, secure deletion, and access restrictions, increasing the risk of unauthorized access or indefinite data persistence.
+
+**Applies to:** ALL  
+**Lifecycle stages:** Pre Processing, Post Processing
+
+**Parent category:** [Privacy & Confidentiality](privacy-confidentiality)

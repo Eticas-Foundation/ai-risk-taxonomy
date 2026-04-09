@@ -1,0 +1,26 @@
+---
+layout: concept
+title: "Dataset bias and under/over-representation"
+id: dataset-bias
+uri: https://taxonomy.eticas.ai/risk/dataset-bias
+type: subcategory
+scope: ALL
+broader: bias-fairness
+---
+
+# Dataset bias and under/over-representation
+
+`https://taxonomy.eticas.ai/risk/dataset-bias`
+
+Training or evaluation data that does not adequately represent all relevant population groups, leading to systematic performance differences or exclusion of certain groups.
+
+**Applies to:** ALL  
+**Lifecycle stages:** Pre Processing
+
+**Parent category:** [Bias & Fairness](bias-fairness)
+
+## Mappings to external frameworks
+
+| Framework | Concept | Relationship |
+|-----------|---------|-------------|
+| MIT AI Risk Repository | Unfair discrimination & misrepresentation | close match |
