@@ -32,5 +32,5 @@ The risk that individuals affected by AI-driven decisions have no effective mean
 
 | Framework | Concept | Relationship |
 |-----------|---------|-------------|
-| NIST AI Risk Management Framework (AI 100-1) | Accountable & Transparent | broad match |
-| OECD AI Principles | Accountability | broad match |
+| [NIST AI Risk Management Framework (AI 100-1)](https://www.nist.gov/itl/ai-risk-management-framework) | Accountable & Transparent | broad match |
+| [OECD AI Principles](https://oecd.ai) | Accountability | broad match |

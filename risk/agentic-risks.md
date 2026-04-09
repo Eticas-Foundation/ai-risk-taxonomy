@@ -26,4 +26,4 @@ The risk that AI systems operating with a degree of autonomy — planning, execu
 
 | Framework | Concept | Relationship |
 |-----------|---------|-------------|
-| MIT AI Risk Repository | Multi-agent risks | close match |
+| [MIT AI Risk Repository](https://airisk.mit.edu) | Multi-agent risks | close match |

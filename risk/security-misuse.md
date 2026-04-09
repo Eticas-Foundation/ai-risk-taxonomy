@@ -36,9 +36,9 @@ The risk that an AI system is exposed to vulnerabilities, attacks, or misuse tha
 
 | Framework | Concept | Relationship |
 |-----------|---------|-------------|
-| MIT AI Risk Repository | AI system security vulnerabilities & attacks | close match |
-| MIT AI Risk Repository | Malicious Actors & Misuse | close match |
-| NIST AI 600-1 — Generative AI Risk Profile | Information Security | close match |
-| NIST AI Risk Management Framework (AI 100-1) | Secure & Resilient | close match |
-| OECD AI Principles | Robustness, security & safety | broad match |
-| W3C Data Privacy Vocabulary — AI Extension | Security Attack | broad match |
+| [MIT AI Risk Repository](https://airisk.mit.edu) | AI system security vulnerabilities & attacks | close match |
+| [MIT AI Risk Repository](https://airisk.mit.edu) | Malicious Actors & Misuse | close match |
+| [NIST AI 600-1 — Generative AI Risk Profile](https://doi.org/10.6028/NIST.AI.600-1) | Information Security | close match |
+| [NIST AI Risk Management Framework (AI 100-1)](https://www.nist.gov/itl/ai-risk-management-framework) | Secure & Resilient | close match |
+| [OECD AI Principles](https://oecd.ai) | Robustness, security & safety | broad match |
+| [W3C Data Privacy Vocabulary — AI Extension](https://w3c.github.io/dpv/2.3/ai/) | [Security Attack](https://w3c.github.io/dpv/2.3/ai/#SecurityAttack) | broad match |

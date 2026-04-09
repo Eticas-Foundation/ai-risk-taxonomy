@@ -37,8 +37,8 @@ The risk that an AI system collects, processes, or infers personal information i
 
 | Framework | Concept | Relationship |
 |-----------|---------|-------------|
-| MIT AI Risk Repository | Compromise of privacy | close match |
-| NIST AI 600-1 — Generative AI Risk Profile | Data Privacy | close match |
-| NIST AI Risk Management Framework (AI 100-1) | Privacy-Enhanced | close match |
-| OECD AI Principles | Human rights, rule of law, fairness & privacy | broad match |
-| W3C Data Privacy Vocabulary — AI Extension | Personal Data Handling | broad match |
+| [MIT AI Risk Repository](https://airisk.mit.edu) | Compromise of privacy | close match |
+| [NIST AI 600-1 — Generative AI Risk Profile](https://doi.org/10.6028/NIST.AI.600-1) | Data Privacy | close match |
+| [NIST AI Risk Management Framework (AI 100-1)](https://www.nist.gov/itl/ai-risk-management-framework) | Privacy-Enhanced | close match |
+| [OECD AI Principles](https://oecd.ai) | Human rights, rule of law, fairness & privacy | broad match |
+| [W3C Data Privacy Vocabulary — AI Extension](https://w3c.github.io/dpv/2.3/ai/) | [Personal Data Handling](https://w3c.github.io/dpv/2.3/ai/#PersonalDataHandling) | broad match |

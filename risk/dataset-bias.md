@@ -23,4 +23,4 @@ Training or evaluation data that does not adequately represent all relevant popu
 
 | Framework | Concept | Relationship |
 |-----------|---------|-------------|
-| MIT AI Risk Repository | Unfair discrimination & misrepresentation | close match |
+| [MIT AI Risk Repository](https://airisk.mit.edu) | Unfair discrimination & misrepresentation | close match |

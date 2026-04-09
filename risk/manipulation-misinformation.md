@@ -26,5 +26,5 @@ The risk that AI systems are used — intentionally or through design flaws — 
 
 | Framework | Concept | Relationship |
 |-----------|---------|-------------|
-| MIT AI Risk Repository | Misinformation | close match |
-| NIST AI 600-1 — Generative AI Risk Profile | Information Integrity | close match |
+| [MIT AI Risk Repository](https://airisk.mit.edu) | Misinformation | close match |
+| [NIST AI 600-1 — Generative AI Risk Profile](https://doi.org/10.6028/NIST.AI.600-1) | Information Integrity | close match |

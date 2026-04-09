@@ -25,7 +25,7 @@ Offensive, hateful, or otherwise harmful outputs that damage user well-being and
 
 | Framework | Concept | Relationship |
 |-----------|---------|-------------|
-| NIST AI 600-1 — Generative AI Risk Profile | Dangerous, Violent, or Hateful Content | close match |
-| MIT AI Risk Repository | Exposure to toxic content | close match |
+| [NIST AI 600-1 — Generative AI Risk Profile](https://doi.org/10.6028/NIST.AI.600-1) | Dangerous, Violent, or Hateful Content | close match |
+| [MIT AI Risk Repository](https://airisk.mit.edu) | Exposure to toxic content | close match |
 
 *Source: HRA project taxonomy*

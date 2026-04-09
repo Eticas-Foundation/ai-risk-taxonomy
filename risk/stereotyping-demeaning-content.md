@@ -25,6 +25,6 @@ AI system outputs that reinforce, perpetuate, erase, or demean demographic group
 
 | Framework | Concept | Relationship |
 |-----------|---------|-------------|
-| MIT AI Risk Repository | Unfair discrimination & misrepresentation | close match |
+| [MIT AI Risk Repository](https://airisk.mit.edu) | Unfair discrimination & misrepresentation | close match |
 
 *Source: HRA project taxonomy*

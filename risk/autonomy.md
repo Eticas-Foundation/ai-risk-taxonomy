@@ -28,5 +28,5 @@ The risk that an AI system undermines individuals' ability to make free, informe
 
 | Framework | Concept | Relationship |
 |-----------|---------|-------------|
-| MIT AI Risk Repository | Loss of human agency & autonomy | close match |
-| NIST AI 600-1 — Generative AI Risk Profile | Human-AI Configuration | close match |
+| [MIT AI Risk Repository](https://airisk.mit.edu) | Loss of human agency & autonomy | close match |
+| [NIST AI 600-1 — Generative AI Risk Profile](https://doi.org/10.6028/NIST.AI.600-1) | Human-AI Configuration | close match |

@@ -25,6 +25,6 @@ Higher error rates or lower accuracy for specific demographic groups, resulting 
 
 | Framework | Concept | Relationship |
 |-----------|---------|-------------|
-| MIT AI Risk Repository | Unequal performance across groups | close match |
+| [MIT AI Risk Repository](https://airisk.mit.edu) | Unequal performance across groups | close match |
 
 *Source: HRA project taxonomy*

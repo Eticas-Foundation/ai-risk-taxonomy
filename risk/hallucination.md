@@ -25,6 +25,6 @@ Generation of false, fabricated, or misleading information that appears credible
 
 | Framework | Concept | Relationship |
 |-----------|---------|-------------|
-| NIST AI 600-1 — Generative AI Risk Profile | Confabulation | exact match |
+| [NIST AI 600-1 — Generative AI Risk Profile](https://doi.org/10.6028/NIST.AI.600-1) | Confabulation | exact match |
 
 *Source: HRA project taxonomy*
