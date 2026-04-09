@@ -134,9 +134,25 @@ def generate_concept_page(concept, by_id, children, frameworks, config):
             fw_id = m["framework"]
             fw = frameworks.get(fw_id, {})
             fw_name = fw.get("name", fw_id)
+            fw_url = fw.get("url", "")
             target_label = m.get("target_label", m["target_id"])
             rel = RELATION_LABELS.get(m.get("relation", "closeMatch"), m.get("relation", ""))
-            lines.append(f"| {fw_name} | {target_label} | {rel} |")
+
+            # Framework name links to framework URL
+            if fw_url:
+                fw_cell = f"[{fw_name}]({fw_url})"
+            else:
+                fw_cell = fw_name
+
+            # Concept links to concept-level URL if available
+            concept_url_prefix = fw.get("concept_url_prefix", "")
+            if concept_url_prefix:
+                concept_url = concept_url_prefix + m["target_id"]
+                concept_cell = f"[{target_label}]({concept_url})"
+            else:
+                concept_cell = target_label
+
+            lines.append(f"| {fw_cell} | {concept_cell} | {rel} |")
         lines.append("")
 
     # Source

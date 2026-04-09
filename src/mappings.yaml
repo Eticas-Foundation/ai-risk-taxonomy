@@ -49,6 +49,7 @@ frameworks:
     url: "https://w3c.github.io/dpv/2.3/ai/"
     repository: "https://github.com/w3c/dpv"
     base_uri: "https://w3id.org/dpv/ai#"
+    concept_url_prefix: "https://w3c.github.io/dpv/2.3/ai/#"
     note: >
       Machine-readable (RDF/SKOS). Provides the richest set of
       concept-level URIs for direct linking. Also covers the
