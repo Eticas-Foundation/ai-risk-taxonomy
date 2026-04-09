@@ -141,3 +141,27 @@ The risk that AI systems operating with a degree of autonomy — planning, execu
 <span class="badge badge-audit-dependent">audit-dependent</span> <span class="badge badge-provisional">provisional</span> <span class="badge badge-perspective">rights & ethics</span>
 
 The risk that AI systems are used — intentionally or through design flaws — to deceive, manipulate, or mislead individuals or populations.
+
+### [Resilience](resilience.md)
+
+<span class="badge badge-audit-dependent">audit-dependent</span> <span class="badge badge-proposed">proposed</span> <span class="badge badge-perspective">operational viability</span>
+
+The risk that an AI system cannot absorb disruption, degrade gracefully, or recover when faced with adverse events, attacks, infrastructure failures, or environmental changes.
+
+- [Graceful degradation](graceful-degradation.md)
+- [Edge and offline operability](edge-offline-operability.md)
+- [Recovery capability](recovery-capability.md)
+- [Infrastructure dependency](infrastructure-dependency.md)
+- [Contextual and ethical resilience](contextual-resilience.md)
+
+### [Integration Readiness](integration-readiness.md)
+
+<span class="badge badge-audit-dependent">audit-dependent</span> <span class="badge badge-proposed">proposed</span> <span class="badge badge-perspective">operational viability</span>
+
+The risk that an AI system fails to deliver value not because of model performance issues but because it does not fit the organisational, technical, or human context into which it is deployed.
+
+- [Organisational readiness](organisational-readiness.md)
+- [Technical interoperability](technical-interoperability.md)
+- [Workflow compatibility](workflow-compatibility.md)
+- [Deployment sustainability](deployment-sustainability.md)
+- [Institutional absorptive capacity](institutional-capacity.md)

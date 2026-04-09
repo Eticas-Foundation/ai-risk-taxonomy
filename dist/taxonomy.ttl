@@ -2,6 +2,7 @@
 @prefix dpv-ai: <https://w3id.org/dpv/ai#> .
 @prefix eticas: <https://taxonomy.eticas.ai/risk/> .
 @prefix eticas-ont: <https://taxonomy.eticas.ai/ontology/> .
+@prefix eu-ai-act: <https://w3id.org/dpv/legal/eu/aiact#> .
 @prefix iso-42001: <https://taxonomy.eticas.ai/external/iso-42001/> .
 @prefix mit: <https://airisk.mit.edu/domain/> .
 @prefix nist-600: <https://taxonomy.eticas.ai/external/nist-ai-600-1/> .
@@ -35,6 +36,8 @@ mit:subdomain-7.4 skos:prefLabel "Lack of transparency or interpretability"@en .
 
 mit:subdomain-7.6 skos:prefLabel "Multi-agent risks"@en .
 
+iso-42001:A.10 skos:prefLabel "Third-party and customer relationships"@en .
+
 iso-42001:A.2-A.4 skos:prefLabel "AI Policy, Internal Organisation, Resources"@en .
 
 iso-42001:A.8 skos:prefLabel "Assessing impacts of AI systems"@en .
@@ -59,9 +62,9 @@ nist-rmf:explainable-interpretable skos:prefLabel "Explainable & Interpretable"@
 
 nist-rmf:fair skos:prefLabel "Fair with Harmful Bias Managed"@en .
 
-nist-rmf:privacy-enhanced skos:prefLabel "Privacy-Enhanced"@en .
+nist-rmf:map skos:prefLabel "MAP function — context and deployment environment"@en .
 
-nist-rmf:secure-resilient skos:prefLabel "Secure & Resilient"@en .
+nist-rmf:privacy-enhanced skos:prefLabel "Privacy-Enhanced"@en .
 
 nist-rmf:valid-reliable skos:prefLabel "Valid & Reliable"@en .
 
@@ -154,6 +157,15 @@ eticas:biometric-surveillance a skos:Concept ;
     eticas-ont:maturity "established" ;
     eticas-ont:scope "ADM" .
 
+eticas:contextual-resilience a skos:Concept ;
+    skos:broader eticas:resilience ;
+    skos:definition "Absence of safeguards against function creep, weaponisation, or repurposing of the system against the populations it was designed to serve. Includes adequacy of consent mechanisms under power asymmetries and protection of beneficiary data in humanitarian or conflict contexts."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:prefLabel "Contextual and ethical resilience"@en ;
+    eticas-ont:lifecycleStage "post-processing" ;
+    eticas-ont:maturity "proposed" ;
+    eticas-ont:scope "ALL" .
+
 eticas:data-governance a skos:Concept ;
     dcterms:source "HRA" ;
     skos:broader eticas:governance ;
@@ -183,6 +195,24 @@ eticas:decision-traceability a skos:Concept ;
     eticas-ont:lifecycleStage "in-processing",
         "post-processing" ;
     eticas-ont:maturity "provisional" ;
+    eticas-ont:scope "ALL" .
+
+eticas:deployment-sustainability a skos:Concept ;
+    skos:broader eticas:integration-readiness ;
+    skos:definition "The organisation lacks the capacity for ongoing operation, maintenance, monitoring, and improvement of the AI system after initial deployment. Includes vendor lock-in risk, dependency on external expertise, and unclear cost-effectiveness or value proposition."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:prefLabel "Deployment sustainability"@en ;
+    eticas-ont:lifecycleStage "post-processing" ;
+    eticas-ont:maturity "proposed" ;
+    eticas-ont:scope "ALL" .
+
+eticas:edge-offline-operability a skos:Concept ;
+    skos:broader eticas:resilience ;
+    skos:definition "System inability to function without continuous cloud access or network connectivity, creating single points of failure in environments with unreliable infrastructure."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:prefLabel "Edge and offline operability"@en ;
+    eticas-ont:lifecycleStage "post-processing" ;
+    eticas-ont:maturity "proposed" ;
     eticas-ont:scope "ALL" .
 
 eticas:emotion-inference-profiling a skos:Concept ;
@@ -244,6 +274,15 @@ eticas:geographic-cultural-language-skew a skos:Concept ;
         "post-processing",
         "pre-processing" ;
     eticas-ont:maturity "established" ;
+    eticas-ont:scope "ALL" .
+
+eticas:graceful-degradation a skos:Concept ;
+    skos:broader eticas:resilience ;
+    skos:definition "Absence of defined degradation pathways that allow the system to maintain partial function when components fail, connectivity is lost, or resources are constrained."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:prefLabel "Graceful degradation"@en ;
+    eticas-ont:lifecycleStage "post-processing" ;
+    eticas-ont:maturity "proposed" ;
     eticas-ont:scope "ALL" .
 
 eticas:hallucination a skos:Concept ;
@@ -322,6 +361,16 @@ eticas:inference-energy-consumption a skos:Concept ;
     eticas-ont:maturity "provisional" ;
     eticas-ont:scope "ALL" .
 
+eticas:infrastructure-dependency a skos:Concept ;
+    skos:broader eticas:resilience ;
+    skos:definition "Unmapped or unmitigated dependencies on external infrastructure (power, connectivity, cloud services, third-party APIs) whose failure would disable the system."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:prefLabel "Infrastructure dependency"@en ;
+    eticas-ont:lifecycleStage "post-processing",
+        "pre-processing" ;
+    eticas-ont:maturity "proposed" ;
+    eticas-ont:scope "ALL" .
+
 eticas:input-output-logging a skos:Concept ;
     dcterms:source "HRA" ;
     skos:broader eticas:governance ;
@@ -330,6 +379,15 @@ eticas:input-output-logging a skos:Concept ;
     skos:prefLabel "Critical input/output logging"@en ;
     eticas-ont:lifecycleStage "post-processing" ;
     eticas-ont:maturity "provisional" ;
+    eticas-ont:scope "ALL" .
+
+eticas:institutional-capacity a skos:Concept ;
+    skos:broader eticas:integration-readiness ;
+    skos:definition "The broader institutional or societal context lacks foundational capabilities (digital infrastructure, data literacy, regulatory frameworks) needed before AI deployment is viable. Premature deployment may reallocate scarce resources, exacerbate inequality, or create technological dependency."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:prefLabel "Institutional absorptive capacity"@en ;
+    eticas-ont:lifecycleStage "pre-processing" ;
+    eticas-ont:maturity "proposed" ;
     eticas-ont:scope "ALL" .
 
 eticas:intersectional-unfairness a skos:Concept ;
@@ -425,6 +483,15 @@ eticas:monitoring-evaluation-gaps a skos:Concept ;
     skos:prefLabel "Monitoring and evaluation gaps"@en ;
     eticas-ont:lifecycleStage "post-processing" ;
     eticas-ont:maturity "provisional" ;
+    eticas-ont:scope "ALL" .
+
+eticas:organisational-readiness a skos:Concept ;
+    skos:broader eticas:integration-readiness ;
+    skos:definition "The deploying organisation lacks the governance maturity, leadership engagement, change management capacity, staff competency, or cultural receptivity needed to absorb an AI system into its operations."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:prefLabel "Organisational readiness"@en ;
+    eticas-ont:lifecycleStage "pre-processing" ;
+    eticas-ont:maturity "proposed" ;
     eticas-ont:scope "ALL" .
 
 eticas:out-of-distribution-robustness a skos:Concept ;
@@ -558,6 +625,15 @@ eticas:re-identification a skos:Concept ;
     eticas-ont:maturity "established" ;
     eticas-ont:scope "ALL" .
 
+eticas:recovery-capability a skos:Concept ;
+    skos:broader eticas:resilience ;
+    skos:definition "Lack of tested recovery procedures, rollback mechanisms, or recovery time objectives for restoring system function after disruption."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:prefLabel "Recovery capability"@en ;
+    eticas-ont:lifecycleStage "post-processing" ;
+    eticas-ont:maturity "proposed" ;
+    eticas-ont:scope "ALL" .
+
 eticas:regulatory-non-compliance a skos:Concept ;
     skos:broader eticas:governance ;
     skos:definition "Failure to align with applicable legal, ethical, or organisational standards, including sector-specific regulations."@en ;
@@ -643,6 +719,16 @@ eticas:task-success a skos:Concept ;
     eticas-ont:maturity "provisional" ;
     eticas-ont:scope "ALL" .
 
+eticas:technical-interoperability a skos:Concept ;
+    skos:broader eticas:integration-readiness ;
+    skos:definition "The AI system cannot integrate with existing infrastructure, legacy systems, data pipelines, or standards (e.g., HL7 FHIR in healthcare) required for it to function in the deployment environment."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:prefLabel "Technical interoperability"@en ;
+    eticas-ont:lifecycleStage "post-processing",
+        "pre-processing" ;
+    eticas-ont:maturity "proposed" ;
+    eticas-ont:scope "ALL" .
+
 eticas:training-resource-consumption a skos:Concept ;
     dcterms:source "HRA" ;
     skos:broader eticas:environmental-impact ;
@@ -700,6 +786,15 @@ eticas:weak-data-controls a skos:Concept ;
     eticas-ont:maturity "established" ;
     eticas-ont:scope "ALL" .
 
+eticas:workflow-compatibility a skos:Concept ;
+    skos:broader eticas:integration-readiness ;
+    skos:definition "The system's outputs, alerts, or interfaces do not fit existing human workflows, leading to alert fatigue, workarounds, or abandonment. Includes inadequate end-user involvement in design and testing, and poor context transferability from development to deployment environment."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:prefLabel "Workflow compatibility"@en ;
+    eticas-ont:lifecycleStage "post-processing" ;
+    eticas-ont:maturity "proposed" ;
+    eticas-ont:scope "ALL" .
+
 dpv-ai:AIBias skos:prefLabel "AI Bias"@en .
 
 dpv-ai:PersonalDataHandling skos:prefLabel "Personal Data Handling"@en .
@@ -710,11 +805,15 @@ dpv-ai:SecurityAttack skos:prefLabel "Security Attack"@en .
 
 dpv-ai:Transparency skos:prefLabel "Transparency"@en .
 
+eu-ai-act:article-15-4 skos:prefLabel "Article 15(4) — Resilience regarding errors, faults or inconsistencies"@en .
+
 mit:subdomain-1.1 skos:prefLabel "Unfair discrimination & misrepresentation"@en .
 
 nist-600:confabulation skos:prefLabel "Confabulation"@en .
 
 nist-rmf:accountable-transparent skos:prefLabel "Accountable & Transparent"@en .
+
+nist-rmf:secure-resilient skos:prefLabel "Secure & Resilient"@en .
 
 oecd:principle-1.2 skos:prefLabel "Human rights, rule of law, fairness & privacy"@en .
 
@@ -758,6 +857,48 @@ eticas:responsibility-redress a skos:Concept ;
     eticas-ont:lifecycleStage "post-processing" ;
     eticas-ont:maturity "developing" ;
     eticas-ont:perspective "rights & ethics" ;
+    eticas-ont:scope "ALL" .
+
+eticas:integration-readiness a skos:Concept ;
+    skos:altLabel "Deployment readiness"@en,
+        "Operational risk"@en,
+        "Sociotechnical fit"@en ;
+    skos:definition "The risk that an AI system fails to deliver value not because of model performance issues but because it does not fit the organisational, technical, or human context into which it is deployed. This includes interoperability failures with existing systems, insufficient organisational capacity to absorb the technology, workflow incompatibility, and lack of sustainable maintenance capability. Between 70 and 85% of AI initiatives fail to meet their objectives, primarily due to these integration factors rather than model quality."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:narrower eticas:deployment-sustainability,
+        eticas:institutional-capacity,
+        eticas:organisational-readiness,
+        eticas:technical-interoperability,
+        eticas:workflow-compatibility ;
+    skos:prefLabel "Integration Readiness"@en ;
+    skos:relatedMatch iso-42001:A.10,
+        nist-rmf:map ;
+    skos:topConceptOf eticas:scheme ;
+    eticas-ont:inclusion "audit-dependent" ;
+    eticas-ont:lifecycleStage "post-processing",
+        "pre-processing" ;
+    eticas-ont:maturity "proposed" ;
+    eticas-ont:perspective "operational viability" ;
+    eticas-ont:scope "ALL" .
+
+eticas:resilience a skos:Concept ;
+    skos:altLabel "Operational resilience"@en,
+        "System resilience"@en ;
+    skos:broadMatch nist-rmf:secure-resilient,
+        eu-ai-act:article-15-4 ;
+    skos:definition "The risk that an AI system cannot absorb disruption, degrade gracefully, or recover when faced with adverse events, attacks, infrastructure failures, or environmental changes. This goes beyond reliability (consistent performance under normal conditions) and robustness (performance under varied conditions) to address what happens when the system is genuinely disrupted and must recover or continue operating in degraded mode. Particularly critical for AI deployed in conflict zones, humanitarian operations, or critical infrastructure."@en ;
+    skos:inScheme eticas:scheme ;
+    skos:narrower eticas:contextual-resilience,
+        eticas:edge-offline-operability,
+        eticas:graceful-degradation,
+        eticas:infrastructure-dependency,
+        eticas:recovery-capability ;
+    skos:prefLabel "Resilience"@en ;
+    skos:topConceptOf eticas:scheme ;
+    eticas-ont:inclusion "audit-dependent" ;
+    eticas-ont:lifecycleStage "post-processing" ;
+    eticas-ont:maturity "proposed" ;
+    eticas-ont:perspective "operational viability" ;
     eticas-ont:scope "ALL" .
 
 eticas:transparency-explainability a skos:Concept ;
@@ -942,9 +1083,11 @@ eticas:scheme a skos:ConceptScheme ;
         eticas:bias-fairness,
         eticas:environmental-impact,
         eticas:governance,
+        eticas:integration-readiness,
         eticas:manipulation-misinformation,
         eticas:privacy-confidentiality,
         eticas:reliability,
+        eticas:resilience,
         eticas:responsibility-redress,
         eticas:security-misuse,
         eticas:transparency-explainability ;
