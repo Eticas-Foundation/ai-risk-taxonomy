@@ -13,7 +13,7 @@ broader: transparency-explainability
 
 `https://taxonomy.eticas.ai/risk/ai-interaction-disclosure`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Users interacting with an AI system under the assumption that they are communicating with a human, without clear disclosure.
 

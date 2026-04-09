@@ -13,7 +13,7 @@ broader: security-misuse
 
 `https://taxonomy.eticas.ai/risk/misuse-beyond-intended-purpose`
 
-<span class="badge badge-developing">developing</span>
+**Maturity:** <span class="badge badge-developing">developing</span>
 
 Use of the system for purposes it was not designed for, including repurposing for surveillance, manipulation, or other harmful applications.
 

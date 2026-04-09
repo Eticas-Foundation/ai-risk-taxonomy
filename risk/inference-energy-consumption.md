@@ -13,7 +13,7 @@ broader: environmental-impact
 
 `https://taxonomy.eticas.ai/risk/inference-energy-consumption`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 High energy use during deployment and inference, increasing environmental impact and infrastructure costs.
 

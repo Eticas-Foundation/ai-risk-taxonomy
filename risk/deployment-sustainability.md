@@ -13,7 +13,7 @@ broader: integration-readiness
 
 `https://taxonomy.eticas.ai/risk/deployment-sustainability`
 
-<span class="badge badge-proposed">proposed</span>
+**Maturity:** <span class="badge badge-proposed">proposed</span>
 
 The organisation lacks the capacity for ongoing operation, maintenance, monitoring, and improvement of the AI system after initial deployment. Includes vendor lock-in risk, dependency on external expertise, and unclear cost-effectiveness or value proposition.
 

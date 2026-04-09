@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/poor-documentation`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Incomplete, outdated, or absent documentation of system purpose, architecture, data sources, known limitations, and operational procedures.
 

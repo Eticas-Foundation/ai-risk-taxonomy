@@ -13,7 +13,7 @@ broader: resilience
 
 `https://taxonomy.eticas.ai/risk/contextual-resilience`
 
-<span class="badge badge-proposed">proposed</span>
+**Maturity:** <span class="badge badge-proposed">proposed</span>
 
 Absence of safeguards against function creep, weaponisation, or repurposing of the system against the populations it was designed to serve. Includes adequacy of consent mechanisms under power asymmetries and protection of beneficiary data in humanitarian or conflict contexts.
 

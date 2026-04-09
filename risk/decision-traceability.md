@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/decision-traceability`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Inability to trace decisions made or influenced by the AI system back to specific inputs, processes, or actors, making it impossible to investigate harms or assign responsibility.
 

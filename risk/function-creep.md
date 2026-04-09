@@ -13,7 +13,7 @@ broader: privacy-confidentiality
 
 `https://taxonomy.eticas.ai/risk/function-creep`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Repurposing of personal data beyond the original intent or consent scope, including secondary uses not anticipated at collection time.
 

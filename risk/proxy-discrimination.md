@@ -13,7 +13,7 @@ broader: bias-fairness
 
 `https://taxonomy.eticas.ai/risk/proxy-discrimination`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Discrimination through features that correlate with protected attributes (e.g., postcode as proxy for ethnicity), even when protected attributes are not directly used.
 

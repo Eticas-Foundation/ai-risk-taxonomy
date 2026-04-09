@@ -13,7 +13,7 @@ broader: responsibility-redress
 
 `https://taxonomy.eticas.ai/risk/absence-of-appeal`
 
-<span class="badge badge-developing">developing</span>
+**Maturity:** <span class="badge badge-developing">developing</span>
 
 No accessible process for individuals to challenge or appeal AI-driven decisions that affect them.
 

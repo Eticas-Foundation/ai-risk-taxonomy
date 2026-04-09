@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/task-success`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Low or uneven task success rates, particularly across subpopulations or input types, leading to systematic exclusion, service denial, or misinformation.
 

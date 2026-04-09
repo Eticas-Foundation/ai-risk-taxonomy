@@ -14,7 +14,7 @@ scope: ALL
 
 `https://taxonomy.eticas.ai/risk/resilience`
 
-<span class="badge badge-audit-dependent">audit-dependent</span> <span class="badge badge-proposed">proposed</span> <span class="badge badge-perspective">operational viability</span>
+**Inclusion:** <span class="badge badge-audit-dependent">audit-dependent</span> · **Maturity:** <span class="badge badge-proposed">proposed</span> · **Perspective:** <span class="badge badge-perspective">operational viability</span>
 
 The risk that an AI system cannot absorb disruption, degrade gracefully, or recover when faced with adverse events, attacks, infrastructure failures, or environmental changes. This goes beyond reliability (consistent performance under normal conditions) and robustness (performance under varied conditions) to address what happens when the system is genuinely disrupted and must recover or continue operating in degraded mode. Particularly critical for AI deployed in conflict zones, humanitarian operations, or critical infrastructure.
 

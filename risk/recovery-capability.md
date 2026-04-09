@@ -13,7 +13,7 @@ broader: resilience
 
 `https://taxonomy.eticas.ai/risk/recovery-capability`
 
-<span class="badge badge-proposed">proposed</span>
+**Maturity:** <span class="badge badge-proposed">proposed</span>
 
 Lack of tested recovery procedures, rollback mechanisms, or recovery time objectives for restoring system function after disruption.
 

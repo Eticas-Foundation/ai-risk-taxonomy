@@ -14,7 +14,7 @@ scope: ALL
 
 `https://taxonomy.eticas.ai/risk/autonomy`
 
-<span class="badge badge-audit-dependent">audit-dependent</span> <span class="badge badge-provisional">provisional</span> <span class="badge badge-perspective">rights & ethics</span>
+**Inclusion:** <span class="badge badge-audit-dependent">audit-dependent</span> · **Maturity:** <span class="badge badge-provisional">provisional</span> · **Perspective:** <span class="badge badge-perspective">rights & ethics</span>
 
 The risk that an AI system undermines individuals' ability to make free, informed decisions, whether through over-reliance, automation bias, manipulative design, or erosion of human agency.
 

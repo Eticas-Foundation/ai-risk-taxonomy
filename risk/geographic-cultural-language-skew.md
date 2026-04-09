@@ -13,7 +13,7 @@ broader: bias-fairness
 
 `https://taxonomy.eticas.ai/risk/geographic-cultural-language-skew`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Systematic performance differences across geographies, cultures, or languages, often resulting from training data that overrepresents certain regions or linguistic traditions.
 

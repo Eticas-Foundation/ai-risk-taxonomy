@@ -13,7 +13,7 @@ broader: transparency-explainability
 
 `https://taxonomy.eticas.ai/risk/stakeholder-communication`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Stakeholders not being made aware of AI system limitations, parameters, and settings that affect responsible use.
 

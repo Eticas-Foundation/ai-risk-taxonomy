@@ -14,7 +14,7 @@ scope: ALL
 
 `https://taxonomy.eticas.ai/risk/reliability`
 
-<span class="badge badge-required">required</span> <span class="badge badge-established">established</span> <span class="badge badge-perspective">technical soundness</span>
+**Inclusion:** <span class="badge badge-required">required</span> · **Maturity:** <span class="badge badge-established">established</span> · **Perspective:** <span class="badge badge-perspective">technical soundness</span>
 
 The risk that an AI system produces false, fabricated, or misleading outputs (hallucinations), spreads inaccurate or deceptive information (misinformation), or delivers inconsistent results across similar inputs and contexts. Such failures undermine trust, reduce system dependability, and can lead to harmful or misguided decisions.
 

@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/lack-of-change-management`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Absence of controlled processes for system modifications, including uncontrolled changes to production systems.
 

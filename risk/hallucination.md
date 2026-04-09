@@ -13,7 +13,7 @@ broader: reliability
 
 `https://taxonomy.eticas.ai/risk/hallucination`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Generation of false, fabricated, or misleading information that appears credible, including invented facts, statistics, citations, or events.
 

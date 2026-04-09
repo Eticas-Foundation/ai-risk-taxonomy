@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/unclear-responsibilities`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Missing or ambiguous assignment of roles and responsibilities for AI system design, deployment, monitoring, and incident response.
 

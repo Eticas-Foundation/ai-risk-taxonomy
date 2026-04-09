@@ -13,7 +13,7 @@ broader: reliability
 
 `https://taxonomy.eticas.ai/risk/out-of-distribution-robustness`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Unpredictable behaviour or failure when the system is exposed to inputs outside the distribution of its training data.
 

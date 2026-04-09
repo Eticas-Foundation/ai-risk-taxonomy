@@ -13,7 +13,7 @@ broader: environmental-impact
 
 `https://taxonomy.eticas.ai/risk/training-resource-consumption`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Significant carbon emissions, energy use, and water consumption associated with model training, particularly for large-scale foundation models.
 

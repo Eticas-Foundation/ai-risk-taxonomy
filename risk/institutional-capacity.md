@@ -13,7 +13,7 @@ broader: integration-readiness
 
 `https://taxonomy.eticas.ai/risk/institutional-capacity`
 
-<span class="badge badge-proposed">proposed</span>
+**Maturity:** <span class="badge badge-proposed">proposed</span>
 
 The broader institutional or societal context lacks foundational capabilities (digital infrastructure, data literacy, regulatory frameworks) needed before AI deployment is viable. Premature deployment may reallocate scarce resources, exacerbate inequality, or create technological dependency.
 

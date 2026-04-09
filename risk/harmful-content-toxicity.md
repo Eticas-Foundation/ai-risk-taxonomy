@@ -13,7 +13,7 @@ broader: bias-fairness
 
 `https://taxonomy.eticas.ai/risk/harmful-content-toxicity`
 
-<span class="badge badge-developing">developing</span>
+**Maturity:** <span class="badge badge-developing">developing</span>
 
 Offensive, hateful, or otherwise harmful outputs that damage user well-being and erode trust.
 

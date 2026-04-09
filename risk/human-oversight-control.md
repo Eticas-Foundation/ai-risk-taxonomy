@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/human-oversight-control`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Lack of defined intervention points, override capabilities, or human review mechanisms, allowing issues and threats to persist unchecked.
 

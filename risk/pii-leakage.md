@@ -13,7 +13,7 @@ broader: privacy-confidentiality
 
 `https://taxonomy.eticas.ai/risk/pii-leakage`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Personal data present in training data surfacing in model outputs, either through memorisation or through responses that reveal sensitive information about individuals.
 

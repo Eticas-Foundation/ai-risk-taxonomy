@@ -13,7 +13,7 @@ broader: resilience
 
 `https://taxonomy.eticas.ai/risk/edge-offline-operability`
 
-<span class="badge badge-proposed">proposed</span>
+**Maturity:** <span class="badge badge-proposed">proposed</span>
 
 System inability to function without continuous cloud access or network connectivity, creating single points of failure in environments with unreliable infrastructure.
 

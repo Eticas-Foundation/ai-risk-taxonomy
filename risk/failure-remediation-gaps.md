@@ -13,7 +13,7 @@ broader: reliability
 
 `https://taxonomy.eticas.ai/risk/failure-remediation-gaps`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Absence of remediation plans for predictable or unknown failure modes, leaving critical services unable to recover or degrade gracefully.
 

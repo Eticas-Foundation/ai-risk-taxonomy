@@ -14,7 +14,7 @@ scope: ALL
 
 `https://taxonomy.eticas.ai/risk/integration-readiness`
 
-<span class="badge badge-audit-dependent">audit-dependent</span> <span class="badge badge-proposed">proposed</span> <span class="badge badge-perspective">operational viability</span>
+**Inclusion:** <span class="badge badge-audit-dependent">audit-dependent</span> · **Maturity:** <span class="badge badge-proposed">proposed</span> · **Perspective:** <span class="badge badge-perspective">operational viability</span>
 
 The risk that an AI system fails to deliver value not because of model performance issues but because it does not fit the organisational, technical, or human context into which it is deployed. This includes interoperability failures with existing systems, insufficient organisational capacity to absorb the technology, workflow incompatibility, and lack of sustainable maintenance capability. Between 70 and 85% of AI initiatives fail to meet their objectives, primarily due to these integration factors rather than model quality.
 

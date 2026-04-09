@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/responsible-actor-attribution`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Unclear or undocumented roles of developers, deployers, or reviewers, creating accountability gaps that can delay incident response or allow harmful practices to persist.
 

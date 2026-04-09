@@ -13,7 +13,7 @@ broader: privacy-confidentiality
 
 `https://taxonomy.eticas.ai/risk/weak-data-controls`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Insufficient policies or technical measures for data retention limits, secure deletion, and access restrictions, increasing the risk of unauthorized access or indefinite data persistence.
 

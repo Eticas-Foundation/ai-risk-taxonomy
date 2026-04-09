@@ -13,7 +13,7 @@ broader: reliability
 
 `https://taxonomy.eticas.ai/risk/monitoring-evaluation-gaps`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Lack of ongoing monitoring that renders datasets obsolete and system outputs unreliable, including absence of feedback mechanisms and periodic evaluation.
 

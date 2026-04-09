@@ -14,7 +14,7 @@ scope: ALL
 
 `https://taxonomy.eticas.ai/risk/environmental-impact`
 
-<span class="badge badge-audit-dependent">audit-dependent</span> <span class="badge badge-established">established</span> <span class="badge badge-perspective">technical soundness</span>
+**Inclusion:** <span class="badge badge-audit-dependent">audit-dependent</span> · **Maturity:** <span class="badge badge-established">established</span> · **Perspective:** <span class="badge badge-perspective">technical soundness</span>
 
 The risk that an AI system's development, deployment, or use causes negative environmental effects, such as excessive energy or water consumption, carbon emissions, or unsustainable use of hardware and resources. This includes hidden impacts across the system's lifecycle, from model training to long-term operation.
 

@@ -13,7 +13,7 @@ broader: reliability
 
 `https://taxonomy.eticas.ai/risk/output-inconsistency`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Inconsistent results across similar inputs and contexts, undermining reproducibility and user trust.
 

@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/regulatory-non-compliance`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Failure to align with applicable legal, ethical, or organisational standards, including sector-specific regulations.
 

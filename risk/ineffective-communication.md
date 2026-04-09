@@ -13,7 +13,7 @@ broader: responsibility-redress
 
 `https://taxonomy.eticas.ai/risk/ineffective-communication`
 
-<span class="badge badge-developing">developing</span>
+**Maturity:** <span class="badge badge-developing">developing</span>
 
 Failure to inform individuals about how they have been affected by AI-driven decisions and what options are available to them.
 

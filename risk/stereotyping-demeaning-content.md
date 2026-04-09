@@ -13,7 +13,7 @@ broader: bias-fairness
 
 `https://taxonomy.eticas.ai/risk/stereotyping-demeaning-content`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 AI system outputs that reinforce, perpetuate, erase, or demean demographic groups through stereotypical representations or language.
 

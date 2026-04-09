@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/oversight-of-adverse-impacts`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Missing processes for identifying, escalating, and responding to harmful outcomes, including psychological or physical harm and threats to human life.
 

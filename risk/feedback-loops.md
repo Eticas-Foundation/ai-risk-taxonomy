@@ -13,7 +13,7 @@ broader: bias-fairness
 
 `https://taxonomy.eticas.ai/risk/feedback-loops`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 System outputs that, when fed back into the system or its operational context, amplify existing biases over time.
 

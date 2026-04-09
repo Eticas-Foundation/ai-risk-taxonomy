@@ -13,7 +13,7 @@ broader: bias-fairness
 
 `https://taxonomy.eticas.ai/risk/intersectional-unfairness`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Compounded disadvantage affecting individuals at the intersection of multiple protected characteristics (e.g., gender and ethnicity together producing worse outcomes than either alone).
 

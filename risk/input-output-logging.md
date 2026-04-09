@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/input-output-logging`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Failure to log inputs and outputs systematically, hindering detection of failures, bias, or misuse. For LLMs, unlogged prompts may prevent tracking of harmful or sensitive interactions.
 

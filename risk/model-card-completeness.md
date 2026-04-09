@@ -13,7 +13,7 @@ broader: transparency-explainability
 
 `https://taxonomy.eticas.ai/risk/model-card-completeness`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Incomplete or outdated documentation of model purpose, performance, limitations, or data sources, leading to inappropriate deployment or overestimation of capabilities.
 

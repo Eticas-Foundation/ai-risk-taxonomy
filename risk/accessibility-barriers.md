@@ -13,7 +13,7 @@ broader: bias-fairness
 
 `https://taxonomy.eticas.ai/risk/accessibility-barriers`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 System design that excludes or disadvantages people with disabilities, including inaccessible interfaces, outputs, or interaction modes.
 

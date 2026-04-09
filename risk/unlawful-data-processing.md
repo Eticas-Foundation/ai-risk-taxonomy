@@ -13,7 +13,7 @@ broader: privacy-confidentiality
 
 `https://taxonomy.eticas.ai/risk/unlawful-data-processing`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Collection, storage, or processing of personal data without adequate legal basis, consent, or compliance with applicable data protection regulations.
 

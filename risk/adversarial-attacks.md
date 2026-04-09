@@ -13,7 +13,7 @@ broader: security-misuse
 
 `https://taxonomy.eticas.ai/risk/adversarial-attacks`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Evasion, poisoning, and extraction attacks designed to manipulate system behaviour, corrupt training data, or steal model information.
 

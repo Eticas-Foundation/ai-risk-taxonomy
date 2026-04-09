@@ -13,7 +13,7 @@ broader: security-misuse
 
 `https://taxonomy.eticas.ai/risk/prompt-injection`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Malicious inputs designed to subvert system intent by injecting instructions that override the system prompt, leading to harmful, deceptive, or unauthorized outputs.
 

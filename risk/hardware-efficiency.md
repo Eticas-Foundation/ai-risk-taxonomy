@@ -13,7 +13,7 @@ broader: environmental-impact
 
 `https://taxonomy.eticas.ai/risk/hardware-efficiency`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Poor hardware utilisation increasing costs, environmental footprint, and limiting the feasibility of equitable access to AI capabilities.
 

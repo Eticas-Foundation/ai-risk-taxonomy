@@ -13,7 +13,7 @@ broader: resilience
 
 `https://taxonomy.eticas.ai/risk/infrastructure-dependency`
 
-<span class="badge badge-proposed">proposed</span>
+**Maturity:** <span class="badge badge-proposed">proposed</span>
 
 Unmapped or unmitigated dependencies on external infrastructure (power, connectivity, cloud services, third-party APIs) whose failure would disable the system.
 

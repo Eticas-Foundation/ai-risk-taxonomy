@@ -13,7 +13,7 @@ broader: privacy-confidentiality
 
 `https://taxonomy.eticas.ai/risk/emotion-inference-profiling`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Inference of emotional states, political opinions, sexual orientation, health status, or other sensitive attributes from behavioural or interaction data.
 

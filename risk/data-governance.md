@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/data-governance`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Inadequate labelling, tagging, approval, or appropriateness assessment of data, leading to downstream issues with fitness for purpose, bias, and compliance.
 

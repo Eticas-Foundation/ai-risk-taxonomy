@@ -13,7 +13,7 @@ broader: reliability
 
 `https://taxonomy.eticas.ai/risk/output-drift`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Degradation of output quality or accuracy as data distributions, user behaviour, or operating conditions change after deployment.
 

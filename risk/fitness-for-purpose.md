@@ -13,7 +13,7 @@ broader: governance
 
 `https://taxonomy.eticas.ai/risk/fitness-for-purpose`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 System not validated against the problem it is intended to solve, leading to incorrect outputs or failure to deliver expected results.
 

@@ -13,7 +13,7 @@ broader: responsibility-redress
 
 `https://taxonomy.eticas.ai/risk/unclear-remediation`
 
-<span class="badge badge-developing">developing</span>
+**Maturity:** <span class="badge badge-developing">developing</span>
 
 Absence of defined processes for correcting harms caused by AI system errors or failures.
 

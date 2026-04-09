@@ -13,7 +13,7 @@ broader: bias-fairness
 
 `https://taxonomy.eticas.ai/risk/performance-equity`
 
-<span class="badge badge-developing">developing</span>
+**Maturity:** <span class="badge badge-developing">developing</span>
 
 Higher error rates or lower accuracy for specific demographic groups, resulting in unfair or unequal service delivery.
 

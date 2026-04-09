@@ -13,7 +13,7 @@ broader: security-misuse
 
 `https://taxonomy.eticas.ai/risk/jailbreaking`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Techniques used to bypass safety controls, content filters, or usage restrictions to trigger prohibited behaviours or outputs.
 

@@ -13,7 +13,7 @@ broader: bias-fairness
 
 `https://taxonomy.eticas.ai/risk/allocation-of-opportunity`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 AI system outputs that lead to the uneven allocation of opportunities (e.g., jobs, credit, services) across demographic groups.
 

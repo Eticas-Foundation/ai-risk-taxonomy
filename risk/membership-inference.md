@@ -13,7 +13,7 @@ broader: privacy-confidentiality
 
 `https://taxonomy.eticas.ai/risk/membership-inference`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 The ability to determine whether specific individuals' data was included in the training set, compromising privacy and potentially violating data protection requirements.
 

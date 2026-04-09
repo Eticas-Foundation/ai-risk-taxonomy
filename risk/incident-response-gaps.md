@@ -13,7 +13,7 @@ broader: security-misuse
 
 `https://taxonomy.eticas.ai/risk/incident-response-gaps`
 
-<span class="badge badge-established">established</span>
+**Maturity:** <span class="badge badge-established">established</span>
 
 Insufficient detection, logging, escalation, or response capabilities for security incidents and misuse events.
 

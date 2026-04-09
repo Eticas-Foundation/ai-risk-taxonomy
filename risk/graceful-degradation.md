@@ -13,7 +13,7 @@ broader: resilience
 
 `https://taxonomy.eticas.ai/risk/graceful-degradation`
 
-<span class="badge badge-proposed">proposed</span>
+**Maturity:** <span class="badge badge-proposed">proposed</span>
 
 Absence of defined degradation pathways that allow the system to maintain partial function when components fail, connectivity is lost, or resources are constrained.
 

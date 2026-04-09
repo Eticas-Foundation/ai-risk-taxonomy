@@ -13,7 +13,7 @@ broader: integration-readiness
 
 `https://taxonomy.eticas.ai/risk/organisational-readiness`
 
-<span class="badge badge-proposed">proposed</span>
+**Maturity:** <span class="badge badge-proposed">proposed</span>
 
 The deploying organisation lacks the governance maturity, leadership engagement, change management capacity, staff competency, or cultural receptivity needed to absorb an AI system into its operations.
 

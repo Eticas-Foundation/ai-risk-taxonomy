@@ -13,7 +13,7 @@ broader: transparency-explainability
 
 `https://taxonomy.eticas.ai/risk/prompt-transparency`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Inconsistent outputs to semantically similar inputs that confuse users and erode trust. For LLMs, variation across generations may lead to contradictory advice or conflicting factual claims.
 

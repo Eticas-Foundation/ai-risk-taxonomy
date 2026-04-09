@@ -13,7 +13,7 @@ broader: integration-readiness
 
 `https://taxonomy.eticas.ai/risk/technical-interoperability`
 
-<span class="badge badge-proposed">proposed</span>
+**Maturity:** <span class="badge badge-proposed">proposed</span>
 
 The AI system cannot integrate with existing infrastructure, legacy systems, data pipelines, or standards (e.g., HL7 FHIR in healthcare) required for it to function in the deployment environment.
 

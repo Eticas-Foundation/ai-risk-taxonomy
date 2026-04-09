@@ -13,7 +13,7 @@ broader: transparency-explainability
 
 `https://taxonomy.eticas.ai/risk/system-explainability`
 
-<span class="badge badge-provisional">provisional</span>
+**Maturity:** <span class="badge badge-provisional">provisional</span>
 
 Stakeholders misinterpret or misunderstand the intended purpose or use of an AI system based on its outputs, due to insufficient explanation of how outputs are produced.
 
