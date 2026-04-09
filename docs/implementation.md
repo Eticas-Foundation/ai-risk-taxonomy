@@ -10,7 +10,7 @@ The core design principle is **simple source, generated complexity**. The team e
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    Source layer (human)                  │
+│                    Source layer (human)                 │
 │                                                         │
 │   src/taxonomy.yaml          ← team edits this          │
 │   src/mappings.yaml          ← external equivalences    │
@@ -26,12 +26,12 @@ The core design principle is **simple source, generated complexity**. The team e
 │   Markdown → HTML            (automatic, zero config)   │
 │                                                         │
 ├─────────────────────────────────────────────────────────┤
-│                    Output layer (machine + human)        │
+│                    Output layer (machine + human)       │
 │                                                         │
-│   dist/taxonomy.ttl          ← SKOS Turtle              │
-│   dist/taxonomy.jsonld       ← JSON-LD                  │
-│   risk/bias-fairness.md      → served as HTML by Jekyll  │
-│   risk/privacy.md            → served as HTML by Jekyll  │
+│   dist/taxonomy.ttl         ← SKOS Turtle               │
+│   dist/taxonomy.jsonld      ← JSON-LD                   │
+│   risk/bias-fairness.md     → served as HTML by Jekyll  │
+│   risk/privacy.md           → served as HTML by Jekyll  │
 │   ...                                                   │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
