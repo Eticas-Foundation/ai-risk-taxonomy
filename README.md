@@ -14,22 +14,20 @@ Each concept has a stable URI (e.g., `https://taxonomy.eticas.ai/risk/bias-fairn
 
 ## Risk categories
 
-### Core (assessed in every audit)
-- [Bias & Fairness](risk/bias-fairness)
-- [Privacy & Confidentiality](risk/privacy-confidentiality)
-- [Reliability](risk/reliability)
-- [Governance](risk/governance)
-- [Security & Misuse](risk/security-misuse)
+### Required (assessed in every audit)
+- [Bias & Fairness](risk/bias-fairness.md)
+- [Privacy & Confidentiality](risk/privacy-confidentiality.md)
+- [Reliability](risk/reliability.md)
+- [Governance](risk/governance.md)
+- [Security & Misuse](risk/security-misuse.md)
+- [Transparency & Explainability](risk/transparency-explainability.md)
 
-### Extended (assessed where relevant)
-- [Environmental Impact](risk/environmental-impact)
-- [Transparency & Explainability](risk/transparency-explainability)
-- [Responsibility & Redress](risk/responsibility-redress)
-
-### Emerging (under development)
-- [Autonomy & Human Agency](risk/autonomy)
-- [Agentic Risks](risk/agentic-risks)
-- [Manipulation & Misinformation](risk/manipulation-misinformation)
+### Audit-dependent
+- [Environmental Impact](risk/environmental-impact.md) — established
+- [Responsibility & Redress](risk/responsibility-redress.md) — developing
+- [Autonomy & Human Agency](risk/autonomy.md) — provisional
+- [Agentic Risks](risk/agentic-risks.md) — provisional
+- [Manipulation & Misinformation](risk/manipulation-misinformation.md) — provisional
 
 ## Outputs
 

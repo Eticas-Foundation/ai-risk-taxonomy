@@ -105,7 +105,7 @@ def generate_concept_page(concept, by_id, children, frameworks, config):
     # Broader
     if "broader" in c and c["broader"] in by_id:
         parent = by_id[c["broader"]]
-        lines.append(f'**Parent category:** [{parent["label"]}]({c["broader"]})')
+        lines.append(f'**Parent category:** [{parent["label"]}]({c["broader"]}.md)')
         lines.append("")
 
     # Children
@@ -115,7 +115,7 @@ def generate_concept_page(concept, by_id, children, frameworks, config):
         lines.append("")
         for child_id in child_ids:
             child = by_id[child_id]
-            lines.append(f'- [{child["label"]}]({child_id})')
+            lines.append(f'- [{child["label"]}]({child_id}.md)')
         lines.append("")
 
     # Notes
@@ -177,7 +177,7 @@ def generate_index(concepts, by_id, children, config):
         for cat in cats:
             maturity = cat.get("maturity", "")
             maturity_badge = f' <span class="badge badge-{maturity}">{maturity}</span>' if maturity else ""
-            lines.append(f'### [{cat["label"]}]({cat["id"]}){maturity_badge}')
+            lines.append(f'### [{cat["label"]}]({cat["id"]}.md){maturity_badge}')
             lines.append("")
             if "definition" in cat:
                 # First sentence only
@@ -189,7 +189,7 @@ def generate_index(concepts, by_id, children, config):
             if child_ids:
                 for child_id in child_ids:
                     child = by_id[child_id]
-                    lines.append(f'- [{child["label"]}]({child_id})')
+                    lines.append(f'- [{child["label"]}]({child_id}.md)')
                 lines.append("")
 
     return "\n".join(lines)
