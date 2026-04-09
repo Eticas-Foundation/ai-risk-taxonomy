@@ -10,15 +10,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Install dependencies
         run: pip install -r build/requirements.txt
+
+      - name: Check taxonomy YAML
+        run: python build/check_yaml.py
 
       - name: Convert YAML to SKOS
         run: python build/convert.py
