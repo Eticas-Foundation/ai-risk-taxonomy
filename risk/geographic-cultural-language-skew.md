@@ -17,4 +17,4 @@ Systematic performance differences across geographies, cultures, or languages, o
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, In Processing, Post Processing
 
-**Parent category:** [Bias & Fairness](bias-fairness)
+**Parent category:** [Bias & Fairness](bias-fairness.md)

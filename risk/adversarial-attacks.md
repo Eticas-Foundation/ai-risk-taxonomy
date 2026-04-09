@@ -17,4 +17,4 @@ Evasion, poisoning, and extraction attacks designed to manipulate system behavio
 **Applies to:** ALL  
 **Lifecycle stages:** In Processing, Post Processing
 
-**Parent category:** [Security & Misuse](security-misuse)
+**Parent category:** [Security & Misuse](security-misuse.md)

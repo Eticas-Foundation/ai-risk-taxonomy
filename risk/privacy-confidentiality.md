@@ -24,14 +24,14 @@ The risk that an AI system collects, processes, or infers personal information i
 
 ## Subcategories
 
-- [Unlawful collection or processing of personal data](unlawful-data-processing)
-- [Re-identification of anonymised data](re-identification)
-- [Function creep](function-creep)
-- [Biometric surveillance](biometric-surveillance)
-- [Emotion inference or sensitive attribute profiling](emotion-inference-profiling)
-- [Weak data retention, erasure, and access controls](weak-data-controls)
-- [PII leakage through model outputs](pii-leakage)
-- [Membership inference risk](membership-inference)
+- [Unlawful collection or processing of personal data](unlawful-data-processing.md)
+- [Re-identification of anonymised data](re-identification.md)
+- [Function creep](function-creep.md)
+- [Biometric surveillance](biometric-surveillance.md)
+- [Emotion inference or sensitive attribute profiling](emotion-inference-profiling.md)
+- [Weak data retention, erasure, and access controls](weak-data-controls.md)
+- [PII leakage through model outputs](pii-leakage.md)
+- [Membership inference risk](membership-inference.md)
 
 ## Mappings to external frameworks
 

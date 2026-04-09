@@ -24,11 +24,11 @@ The risk that stakeholders cannot understand how an AI system works, what it doe
 
 ## Subcategories
 
-- [AI system explainability](system-explainability)
-- [Communication to stakeholders](stakeholder-communication)
-- [Disclosure of AI interaction](ai-interaction-disclosure)
-- [Model card completeness](model-card-completeness)
-- [Prompt transparency](prompt-transparency)
+- [AI system explainability](system-explainability.md)
+- [Communication to stakeholders](stakeholder-communication.md)
+- [Disclosure of AI interaction](ai-interaction-disclosure.md)
+- [Model card completeness](model-card-completeness.md)
+- [Prompt transparency](prompt-transparency.md)
 
 > In the RAIA Guide, this category is assessed only at the Post-Processing stage.
 

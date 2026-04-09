@@ -17,4 +17,4 @@ Absence of controlled processes for system modifications, including uncontrolled
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)

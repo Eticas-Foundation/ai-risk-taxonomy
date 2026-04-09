@@ -17,6 +17,6 @@ Users interacting with an AI system under the assumption that they are communica
 **Applies to:** LLM  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Transparency & Explainability](transparency-explainability)
+**Parent category:** [Transparency & Explainability](transparency-explainability.md)
 
 *Source: HRA project taxonomy*

@@ -22,9 +22,9 @@ The risk that individuals affected by AI-driven decisions have no effective mean
 
 ## Subcategories
 
-- [Absence of appeal mechanisms](absence-of-appeal)
-- [Unclear remediation procedures](unclear-remediation)
-- [Ineffective communication with affected parties](ineffective-communication)
+- [Absence of appeal mechanisms](absence-of-appeal.md)
+- [Unclear remediation procedures](unclear-remediation.md)
+- [Ineffective communication with affected parties](ineffective-communication.md)
 
 > In the RAIA Guide, this category is assessed only at the Post-Processing stage.
 

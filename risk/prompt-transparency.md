@@ -17,6 +17,6 @@ Inconsistent outputs to semantically similar inputs that confuse users and erode
 **Applies to:** LLM  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Transparency & Explainability](transparency-explainability)
+**Parent category:** [Transparency & Explainability](transparency-explainability.md)
 
 *Source: HRA project taxonomy*

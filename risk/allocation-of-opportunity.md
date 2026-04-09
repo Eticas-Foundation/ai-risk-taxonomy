@@ -19,6 +19,6 @@ AI system outputs that lead to the uneven allocation of opportunities (e.g., job
 **Applies to:** ADM  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Bias & Fairness](bias-fairness)
+**Parent category:** [Bias & Fairness](bias-fairness.md)
 
 *Source: HRA project taxonomy*

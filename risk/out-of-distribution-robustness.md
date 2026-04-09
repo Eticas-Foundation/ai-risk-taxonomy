@@ -17,6 +17,6 @@ Unpredictable behaviour or failure when the system is exposed to inputs outside 
 **Applies to:** ALL  
 **Lifecycle stages:** In Processing, Post Processing
 
-**Parent category:** [Reliability](reliability)
+**Parent category:** [Reliability](reliability.md)
 
 *Source: HRA project taxonomy*

@@ -24,9 +24,9 @@ The risk that an AI system's development, deployment, or use causes negative env
 
 ## Subcategories
 
-- [Inference-time energy consumption](inference-energy-consumption)
-- [Training resource consumption](training-resource-consumption)
-- [Hardware efficiency](hardware-efficiency)
+- [Inference-time energy consumption](inference-energy-consumption.md)
+- [Training resource consumption](training-resource-consumption.md)
+- [Hardware efficiency](hardware-efficiency.md)
 
 ## Mappings to external frameworks
 

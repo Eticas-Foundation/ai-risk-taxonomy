@@ -17,7 +17,7 @@ Training or evaluation data that does not adequately represent all relevant popu
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing
 
-**Parent category:** [Bias & Fairness](bias-fairness)
+**Parent category:** [Bias & Fairness](bias-fairness.md)
 
 ## Mappings to external frameworks
 

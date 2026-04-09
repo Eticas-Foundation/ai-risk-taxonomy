@@ -19,7 +19,7 @@ Higher error rates or lower accuracy for specific demographic groups, resulting 
 **Applies to:** ALL  
 **Lifecycle stages:** In Processing, Post Processing
 
-**Parent category:** [Bias & Fairness](bias-fairness)
+**Parent category:** [Bias & Fairness](bias-fairness.md)
 
 ## Mappings to external frameworks
 

@@ -17,6 +17,6 @@ High energy use during deployment and inference, increasing environmental impact
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Environmental Impact](environmental-impact)
+**Parent category:** [Environmental Impact](environmental-impact.md)
 
 *Source: HRA project taxonomy*

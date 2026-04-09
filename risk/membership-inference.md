@@ -17,6 +17,6 @@ The ability to determine whether specific individuals' data was included in the 
 **Applies to:** LLM  
 **Lifecycle stages:** In Processing, Post Processing
 
-**Parent category:** [Privacy & Confidentiality](privacy-confidentiality)
+**Parent category:** [Privacy & Confidentiality](privacy-confidentiality.md)
 
 *Source: HRA project taxonomy*

@@ -17,6 +17,6 @@ Low or uneven task success rates, particularly across subpopulations or input ty
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)
 
 *Source: HRA project taxonomy*

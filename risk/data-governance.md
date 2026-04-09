@@ -17,6 +17,6 @@ Inadequate labelling, tagging, approval, or appropriateness assessment of data, 
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)
 
 *Source: HRA project taxonomy*

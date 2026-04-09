@@ -19,6 +19,6 @@ Inconsistent service quality across demographic groups, leading to systematicall
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Bias & Fairness](bias-fairness)
+**Parent category:** [Bias & Fairness](bias-fairness.md)
 
 *Source: HRA project taxonomy*

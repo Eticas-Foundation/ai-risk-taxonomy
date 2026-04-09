@@ -17,6 +17,6 @@ Lack of defined intervention points, override capabilities, or human review mech
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)
 
 *Source: HRA project taxonomy*

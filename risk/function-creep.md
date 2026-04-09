@@ -17,4 +17,4 @@ Repurposing of personal data beyond the original intent or consent scope, includ
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Privacy & Confidentiality](privacy-confidentiality)
+**Parent category:** [Privacy & Confidentiality](privacy-confidentiality.md)

@@ -17,6 +17,6 @@ Significant carbon emissions, energy use, and water consumption associated with 
 **Applies to:** ALL  
 **Lifecycle stages:** In Processing
 
-**Parent category:** [Environmental Impact](environmental-impact)
+**Parent category:** [Environmental Impact](environmental-impact.md)
 
 *Source: HRA project taxonomy*

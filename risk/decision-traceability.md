@@ -17,6 +17,6 @@ Inability to trace decisions made or influenced by the AI system back to specifi
 **Applies to:** ALL  
 **Lifecycle stages:** In Processing, Post Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)
 
 *Source: HRA project taxonomy*

@@ -19,6 +19,6 @@ Stakeholders not being made aware of AI system limitations, parameters, and sett
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Transparency & Explainability](transparency-explainability)
+**Parent category:** [Transparency & Explainability](transparency-explainability.md)
 
 *Source: HRA project taxonomy*

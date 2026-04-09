@@ -17,4 +17,4 @@ Degradation of output quality or accuracy as data distributions, user behaviour,
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Reliability](reliability)
+**Parent category:** [Reliability](reliability.md)

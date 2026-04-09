@@ -24,18 +24,18 @@ The risk that an AI system produces outcomes that systematically advantage or di
 
 ## Subcategories
 
-- [Dataset bias and under/over-representation](dataset-bias)
-- [Proxy discrimination through correlated features](proxy-discrimination)
-- [Intersectional unfairness](intersectional-unfairness)
-- [Accessibility barriers](accessibility-barriers)
-- [Geographic, cultural, or language skew](geographic-cultural-language-skew)
-- [Feedback loops reinforcing inequality](feedback-loops)
-- [Quality of service disparity across groups](quality-of-service-disparity)
-- [Unequal allocation of opportunity](allocation-of-opportunity)
-- [Stereotyping and demeaning content](stereotyping-demeaning-content)
-- [Harmful content and toxicity](harmful-content-toxicity)
-- [Sentiment fairness across groups](sentiment-fairness)
-- [Performance equity across populations](performance-equity)
+- [Dataset bias and under/over-representation](dataset-bias.md)
+- [Proxy discrimination through correlated features](proxy-discrimination.md)
+- [Intersectional unfairness](intersectional-unfairness.md)
+- [Accessibility barriers](accessibility-barriers.md)
+- [Geographic, cultural, or language skew](geographic-cultural-language-skew.md)
+- [Feedback loops reinforcing inequality](feedback-loops.md)
+- [Quality of service disparity across groups](quality-of-service-disparity.md)
+- [Unequal allocation of opportunity](allocation-of-opportunity.md)
+- [Stereotyping and demeaning content](stereotyping-demeaning-content.md)
+- [Harmful content and toxicity](harmful-content-toxicity.md)
+- [Sentiment fairness across groups](sentiment-fairness.md)
+- [Performance equity across populations](performance-equity.md)
 
 ## Mappings to external frameworks
 

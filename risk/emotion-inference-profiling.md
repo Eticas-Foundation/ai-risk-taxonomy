@@ -17,4 +17,4 @@ Inference of emotional states, political opinions, sexual orientation, health st
 **Applies to:** ALL  
 **Lifecycle stages:** In Processing, Post Processing
 
-**Parent category:** [Privacy & Confidentiality](privacy-confidentiality)
+**Parent category:** [Privacy & Confidentiality](privacy-confidentiality.md)

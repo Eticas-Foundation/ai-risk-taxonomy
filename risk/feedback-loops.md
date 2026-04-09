@@ -17,4 +17,4 @@ System outputs that, when fed back into the system or its operational context, a
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Bias & Fairness](bias-fairness)
+**Parent category:** [Bias & Fairness](bias-fairness.md)

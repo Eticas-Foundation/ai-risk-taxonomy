@@ -17,4 +17,4 @@ Risks introduced through third-party components, pre-trained models, data source
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, In Processing
 
-**Parent category:** [Security & Misuse](security-misuse)
+**Parent category:** [Security & Misuse](security-misuse.md)

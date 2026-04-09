@@ -17,6 +17,6 @@ Missing processes for identifying, escalating, and responding to harmful outcome
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, Post Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)
 
 *Source: HRA project taxonomy*

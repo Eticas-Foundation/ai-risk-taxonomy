@@ -17,4 +17,4 @@ Missing or ambiguous assignment of roles and responsibilities for AI system desi
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, Post Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)

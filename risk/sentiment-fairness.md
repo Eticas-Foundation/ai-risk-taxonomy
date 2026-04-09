@@ -17,6 +17,6 @@ Unequal emotional tone in system outputs across demographic groups, leading to p
 **Applies to:** LLM  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Bias & Fairness](bias-fairness)
+**Parent category:** [Bias & Fairness](bias-fairness.md)
 
 *Source: HRA project taxonomy*

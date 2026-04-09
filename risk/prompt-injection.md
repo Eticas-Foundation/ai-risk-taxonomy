@@ -19,7 +19,7 @@ Malicious inputs designed to subvert system intent by injecting instructions tha
 **Applies to:** LLM  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Security & Misuse](security-misuse)
+**Parent category:** [Security & Misuse](security-misuse.md)
 
 ## Mappings to external frameworks
 

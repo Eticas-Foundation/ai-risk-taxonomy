@@ -17,4 +17,4 @@ Use of the system for purposes it was not designed for, including repurposing fo
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Security & Misuse](security-misuse)
+**Parent category:** [Security & Misuse](security-misuse.md)

@@ -17,4 +17,4 @@ Exploitation of access control weaknesses to gain unauthorized access to the sys
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Security & Misuse](security-misuse)
+**Parent category:** [Security & Misuse](security-misuse.md)

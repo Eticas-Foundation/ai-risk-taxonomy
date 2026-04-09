@@ -24,19 +24,19 @@ The risk that an AI system lacks adequate structures, policies, or accountabilit
 
 ## Subcategories
 
-- [Unclear responsibilities and accountability gaps](unclear-responsibilities)
-- [Poor documentation](poor-documentation)
-- [Limited auditability](limited-auditability)
-- [Regulatory non-compliance](regulatory-non-compliance)
-- [Lack of change management](lack-of-change-management)
-- [Oversight of significant adverse impacts](oversight-of-adverse-impacts)
-- [Fitness for purpose](fitness-for-purpose)
-- [Data governance](data-governance)
-- [Human oversight and control](human-oversight-control)
-- [Decision traceability](decision-traceability)
-- [Critical input/output logging](input-output-logging)
-- [Responsible actor attribution](responsible-actor-attribution)
-- [Task success](task-success)
+- [Unclear responsibilities and accountability gaps](unclear-responsibilities.md)
+- [Poor documentation](poor-documentation.md)
+- [Limited auditability](limited-auditability.md)
+- [Regulatory non-compliance](regulatory-non-compliance.md)
+- [Lack of change management](lack-of-change-management.md)
+- [Oversight of significant adverse impacts](oversight-of-adverse-impacts.md)
+- [Fitness for purpose](fitness-for-purpose.md)
+- [Data governance](data-governance.md)
+- [Human oversight and control](human-oversight-control.md)
+- [Decision traceability](decision-traceability.md)
+- [Critical input/output logging](input-output-logging.md)
+- [Responsible actor attribution](responsible-actor-attribution.md)
+- [Task success](task-success.md)
 
 ## Mappings to external frameworks
 

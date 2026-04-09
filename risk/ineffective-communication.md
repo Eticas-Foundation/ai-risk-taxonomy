@@ -17,4 +17,4 @@ Failure to inform individuals about how they have been affected by AI-driven dec
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Responsibility & Redress](responsibility-redress)
+**Parent category:** [Responsibility & Redress](responsibility-redress.md)

@@ -17,4 +17,4 @@ Absence of defined processes for correcting harms caused by AI system errors or 
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Responsibility & Redress](responsibility-redress)
+**Parent category:** [Responsibility & Redress](responsibility-redress.md)

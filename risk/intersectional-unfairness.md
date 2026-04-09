@@ -17,4 +17,4 @@ Compounded disadvantage affecting individuals at the intersection of multiple pr
 **Applies to:** ALL  
 **Lifecycle stages:** In Processing, Post Processing
 
-**Parent category:** [Bias & Fairness](bias-fairness)
+**Parent category:** [Bias & Fairness](bias-fairness.md)

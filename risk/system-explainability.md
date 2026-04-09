@@ -17,6 +17,6 @@ Stakeholders misinterpret or misunderstand the intended purpose or use of an AI 
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Transparency & Explainability](transparency-explainability)
+**Parent category:** [Transparency & Explainability](transparency-explainability.md)
 
 *Source: HRA project taxonomy*

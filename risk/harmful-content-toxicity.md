@@ -19,7 +19,7 @@ Offensive, hateful, or otherwise harmful outputs that damage user well-being and
 **Applies to:** LLM  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Bias & Fairness](bias-fairness)
+**Parent category:** [Bias & Fairness](bias-fairness.md)
 
 ## Mappings to external frameworks
 

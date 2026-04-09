@@ -17,4 +17,4 @@ Insufficient logging, versioning, or traceability for meaningful external review
 **Applies to:** ALL  
 **Lifecycle stages:** In Processing, Post Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)

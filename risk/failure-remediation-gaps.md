@@ -19,6 +19,6 @@ Absence of remediation plans for predictable or unknown failure modes, leaving c
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Reliability](reliability)
+**Parent category:** [Reliability](reliability.md)
 
 *Source: HRA project taxonomy*

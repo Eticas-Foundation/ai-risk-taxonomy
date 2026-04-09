@@ -24,12 +24,12 @@ The risk that an AI system produces false, fabricated, or misleading outputs (ha
 
 ## Subcategories
 
-- [Hallucination and fabricated outputs](hallucination)
-- [Output inconsistency](output-inconsistency)
-- [Output drift over time](output-drift)
-- [Out-of-distribution robustness](out-of-distribution-robustness)
-- [Failure and remediation gaps](failure-remediation-gaps)
-- [Monitoring and evaluation gaps](monitoring-evaluation-gaps)
+- [Hallucination and fabricated outputs](hallucination.md)
+- [Output inconsistency](output-inconsistency.md)
+- [Output drift over time](output-drift.md)
+- [Out-of-distribution robustness](out-of-distribution-robustness.md)
+- [Failure and remediation gaps](failure-remediation-gaps.md)
+- [Monitoring and evaluation gaps](monitoring-evaluation-gaps.md)
 
 ## Mappings to external frameworks
 

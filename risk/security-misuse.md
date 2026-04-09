@@ -24,13 +24,13 @@ The risk that an AI system is exposed to vulnerabilities, attacks, or misuse tha
 
 ## Subcategories
 
-- [Adversarial attacks](adversarial-attacks)
-- [Prompt injection](prompt-injection)
-- [Jailbreaking](jailbreaking)
-- [Unauthorized access](unauthorized-access)
-- [Supply-chain vulnerabilities](supply-chain-vulnerabilities)
-- [Incident response gaps](incident-response-gaps)
-- [Misuse beyond intended purpose](misuse-beyond-intended-purpose)
+- [Adversarial attacks](adversarial-attacks.md)
+- [Prompt injection](prompt-injection.md)
+- [Jailbreaking](jailbreaking.md)
+- [Unauthorized access](unauthorized-access.md)
+- [Supply-chain vulnerabilities](supply-chain-vulnerabilities.md)
+- [Incident response gaps](incident-response-gaps.md)
+- [Misuse beyond intended purpose](misuse-beyond-intended-purpose.md)
 
 ## Mappings to external frameworks
 

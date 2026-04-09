@@ -17,6 +17,6 @@ System not validated against the problem it is intended to solve, leading to inc
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, In Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)
 
 *Source: HRA project taxonomy*

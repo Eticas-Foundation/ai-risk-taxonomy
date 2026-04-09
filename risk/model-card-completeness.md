@@ -17,6 +17,6 @@ Incomplete or outdated documentation of model purpose, performance, limitations,
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, Post Processing
 
-**Parent category:** [Transparency & Explainability](transparency-explainability)
+**Parent category:** [Transparency & Explainability](transparency-explainability.md)
 
 *Source: HRA project taxonomy*

@@ -17,4 +17,4 @@ Insufficient detection, logging, escalation, or response capabilities for securi
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Security & Misuse](security-misuse)
+**Parent category:** [Security & Misuse](security-misuse.md)

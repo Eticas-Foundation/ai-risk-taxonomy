@@ -17,6 +17,6 @@ Poor hardware utilisation increasing costs, environmental footprint, and limitin
 **Applies to:** ALL  
 **Lifecycle stages:** In Processing, Post Processing
 
-**Parent category:** [Environmental Impact](environmental-impact)
+**Parent category:** [Environmental Impact](environmental-impact.md)
 
 *Source: HRA project taxonomy*

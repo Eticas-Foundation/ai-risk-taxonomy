@@ -19,6 +19,6 @@ Techniques used to bypass safety controls, content filters, or usage restriction
 **Applies to:** LLM  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Security & Misuse](security-misuse)
+**Parent category:** [Security & Misuse](security-misuse.md)
 
 *Source: HRA project taxonomy*

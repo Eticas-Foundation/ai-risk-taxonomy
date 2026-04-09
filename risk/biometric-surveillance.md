@@ -17,4 +17,4 @@ Mass collection and processing of biometric data (face, voice, gait, fingerprint
 **Applies to:** ADM  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Privacy & Confidentiality](privacy-confidentiality)
+**Parent category:** [Privacy & Confidentiality](privacy-confidentiality.md)

@@ -17,6 +17,6 @@ Failure to log inputs and outputs systematically, hindering detection of failure
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)
 
 *Source: HRA project taxonomy*

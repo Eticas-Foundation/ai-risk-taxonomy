@@ -17,4 +17,4 @@ No accessible process for individuals to challenge or appeal AI-driven decisions
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Responsibility & Redress](responsibility-redress)
+**Parent category:** [Responsibility & Redress](responsibility-redress.md)

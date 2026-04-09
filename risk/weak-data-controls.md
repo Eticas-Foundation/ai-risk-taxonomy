@@ -17,4 +17,4 @@ Insufficient policies or technical measures for data retention limits, secure de
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, Post Processing
 
-**Parent category:** [Privacy & Confidentiality](privacy-confidentiality)
+**Parent category:** [Privacy & Confidentiality](privacy-confidentiality.md)

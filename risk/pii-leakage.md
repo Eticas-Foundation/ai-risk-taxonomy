@@ -19,6 +19,6 @@ Personal data present in training data surfacing in model outputs, either throug
 **Applies to:** LLM  
 **Lifecycle stages:** In Processing, Post Processing
 
-**Parent category:** [Privacy & Confidentiality](privacy-confidentiality)
+**Parent category:** [Privacy & Confidentiality](privacy-confidentiality.md)
 
 *Source: HRA project taxonomy*

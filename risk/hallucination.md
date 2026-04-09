@@ -19,7 +19,7 @@ Generation of false, fabricated, or misleading information that appears credible
 **Applies to:** LLM  
 **Lifecycle stages:** Post Processing
 
-**Parent category:** [Reliability](reliability)
+**Parent category:** [Reliability](reliability.md)
 
 ## Mappings to external frameworks
 

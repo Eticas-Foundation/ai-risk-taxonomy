@@ -17,4 +17,4 @@ System design that excludes or disadvantages people with disabilities, including
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, Post Processing
 
-**Parent category:** [Bias & Fairness](bias-fairness)
+**Parent category:** [Bias & Fairness](bias-fairness.md)

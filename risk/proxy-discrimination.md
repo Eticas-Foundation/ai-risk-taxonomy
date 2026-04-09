@@ -17,4 +17,4 @@ Discrimination through features that correlate with protected attributes (e.g., 
 **Applies to:** ALL  
 **Lifecycle stages:** In Processing, Post Processing
 
-**Parent category:** [Bias & Fairness](bias-fairness)
+**Parent category:** [Bias & Fairness](bias-fairness.md)

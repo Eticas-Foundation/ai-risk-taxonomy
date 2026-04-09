@@ -17,6 +17,6 @@ Unclear or undocumented roles of developers, deployers, or reviewers, creating a
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, Post Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)
 
 *Source: HRA project taxonomy*

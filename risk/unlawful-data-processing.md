@@ -17,4 +17,4 @@ Collection, storage, or processing of personal data without adequate legal basis
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing
 
-**Parent category:** [Privacy & Confidentiality](privacy-confidentiality)
+**Parent category:** [Privacy & Confidentiality](privacy-confidentiality.md)

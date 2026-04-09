@@ -17,4 +17,4 @@ Incomplete, outdated, or absent documentation of system purpose, architecture, d
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, In Processing, Post Processing
 
-**Parent category:** [Governance](governance)
+**Parent category:** [Governance](governance.md)
