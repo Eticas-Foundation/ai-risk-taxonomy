@@ -3,7 +3,7 @@ description: >
   A unified, machine-readable AI risk taxonomy for use across
   Eticas audit methodologies, assessment frameworks, and
   reporting outputs.
-baseurl: ""
+baseurl: "/ai-risk-taxonomy"
 url: "https://taxonomy.eticas.ai"
 
 theme: minima
