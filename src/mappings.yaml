@@ -5,7 +5,7 @@ frameworks:
 
   mit:
     name: "MIT AI Risk Repository"
-    version: "v4 (April 2025)"
+    version: "v4 (December 2025)"
     url: "https://airisk.mit.edu"
     paper: "Slattery et al., Patterns (Cell Press), March 2026"
     license: "CC BY 4.0"
@@ -57,7 +57,7 @@ frameworks:
 
   iso_42001:
     name: "ISO/IEC 42001:2023 — AI Management System"
-    url: "https://www.iso.org/standard/81230.html"
+    url: "https://www.iso.org/standard/42001"
     base_uri: "https://taxonomy.eticas.ai/external/iso-42001/"
     note: >
       Paid standard. Mappings reference Annex A control domains
@@ -77,8 +77,9 @@ frameworks:
     repository: "https://github.com/DelaramGlp/airo"
     base_uri: "https://w3id.org/airo#"
     note: >
-      OWL 2 ontology grounded in ISO 31000/23894. Available for
-      deeper ontological linking if needed.
+      OWL 2 ontology grounded in ISO 31000/23894. Now formally
+      incorporated into W3C DPV v2.3. Standalone URIs remain
+      resolvable for citation.
 
   vair:
     name: "VAIR — Vocabulary of AI Risks"
@@ -87,3 +88,5 @@ frameworks:
     base_uri: "https://w3id.org/vair#"
     note: >
       SKOS instantiation of AIRO with populated risk hierarchies.
+      Now formally incorporated into W3C DPV v2.3. Active
+      development has moved into DPV's AI and EU AI Act namespaces.
