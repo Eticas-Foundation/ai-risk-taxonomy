@@ -21,28 +21,11 @@ The risk that an AI system collects, processes, or infers personal information i
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, In Processing, Post Processing
 
-### [Data collection & use](privacy-collection-use.md)
+## Risk groups
 
-Risks from how personal data is collected, processed, and repurposed.
-
-- [Unlawful collection or processing of personal data](unlawful-data-processing.md)
-- [Function creep](function-creep.md)
-- [Biometric surveillance](biometric-surveillance.md)
-- [Emotion inference or sensitive attribute profiling](emotion-inference-profiling.md)
-
-### [Data protection](privacy-data-protection.md)
-
-Risks related to safeguards for stored and processed personal data.
-
-- [Weak data retention, erasure, and access controls](weak-data-controls.md)
-- [Re-identification of anonymised data](re-identification.md)
-
-### [Model-level privacy](privacy-model-level.md)
-
-Risks from AI models leaking or exposing private information through their outputs or structure.
-
-- [PII leakage through model outputs](pii-leakage.md)
-- [Membership inference risk](membership-inference.md)
+- [Data collection & use](privacy-collection-use.md) — Risks from how personal data is collected, processed, and repurposed.
+- [Data protection](privacy-data-protection.md) — Risks related to safeguards for stored and processed personal data.
+- [Model-level privacy](privacy-model-level.md) — Risks from AI models leaking or exposing private information through their outputs or structure.
 
 ## Mappings to external frameworks
 

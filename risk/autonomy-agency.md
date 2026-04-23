@@ -23,23 +23,10 @@ The risk that an AI system undermines human agency or operates with insufficient
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-### [Human agency](autonomy-human-agency.md)
+## Risk groups
 
-Risks to human decision-making capacity arising from interaction with AI systems.
-
-- [Automation bias](automation-bias.md)
-- [Trust calibration](trust-calibration.md)
-- [Deskilling](deskilling.md)
-- [Over-reliance on AI](over-reliance.md)
-
-### [System autonomy](autonomy-system-autonomy.md)
-
-Risks from AI systems operating with a degree of autonomy beyond single-inference interactions.
-
-- [Multi-step autonomous actions](multi-step-actions.md)
-- [Tool use risks](tool-use-risks.md)
-- [Emergent behaviour](emergent-behaviour.md)
-- [Loss of meaningful human control](loss-of-human-control.md)
+- [Human agency](autonomy-human-agency.md) — Risks to human decision-making capacity arising from interaction with AI systems.
+- [System autonomy](autonomy-system-autonomy.md) — Risks from AI systems operating with a degree of autonomy beyond single-inference interactions.
 
 ## Mappings to external frameworks
 

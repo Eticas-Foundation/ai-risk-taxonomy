@@ -21,37 +21,12 @@ The risk that an AI system lacks adequate structures, policies, or accountabilit
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, In Processing, Post Processing
 
-### [Accountability](governance-accountability.md)
+## Risk groups
 
-Risks from unclear responsibility, attribution, and oversight of AI system impacts.
-
-- [Unclear responsibilities and accountability gaps](unclear-responsibilities.md)
-- [Responsible actor attribution](responsible-actor-attribution.md)
-- [Oversight of significant adverse impacts](oversight-of-adverse-impacts.md)
-
-### [Documentation & auditability](governance-documentation.md)
-
-Risks from incomplete, inaccessible, or absent documentation and audit trails.
-
-- [Poor documentation](poor-documentation.md)
-- [Limited auditability](limited-auditability.md)
-- [Decision traceability](decision-traceability.md)
-- [Critical input/output logging](input-output-logging.md)
-
-### [Compliance & process](governance-compliance.md)
-
-Risks from non-compliance with regulations, absence of change management, and lack of fitness validation.
-
-- [Regulatory non-compliance](regulatory-non-compliance.md)
-- [Lack of change management](lack-of-change-management.md)
-- [Fitness for purpose and task effectiveness](fitness-for-purpose.md)
-
-### [Data & oversight](governance-data-oversight.md)
-
-Risks from inadequate data governance, insufficient human oversight, and unvalidated task performance.
-
-- [Data governance](data-governance.md)
-- [Human oversight and control](human-oversight-control.md)
+- [Accountability](governance-accountability.md) — Risks from unclear responsibility, attribution, and oversight of AI system impacts.
+- [Documentation & auditability](governance-documentation.md) — Risks from incomplete, inaccessible, or absent documentation and audit trails.
+- [Compliance & process](governance-compliance.md) — Risks from non-compliance with regulations, absence of change management, and lack of fitness validation.
+- [Data & oversight](governance-data-oversight.md) — Risks from inadequate data governance, insufficient human oversight, and unvalidated task performance.
 
 ## Mappings to external frameworks
 

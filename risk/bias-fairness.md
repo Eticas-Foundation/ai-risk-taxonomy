@@ -21,32 +21,11 @@ The risk that an AI system produces outcomes that systematically advantage or di
 **Applies to:** ALL  
 **Lifecycle stages:** Pre Processing, In Processing, Post Processing
 
-### [Data & representation](bias-data-representation.md)
+## Risk groups
 
-Risks arising from how data is collected, composed, and represented in training and evaluation datasets.
-
-- [Dataset bias and under/over-representation](dataset-bias.md)
-- [Proxy discrimination through correlated features](proxy-discrimination.md)
-- [Geographic, cultural, or language skew](geographic-cultural-language-skew.md)
-- [Feedback loops reinforcing inequality](feedback-loops.md)
-
-### [Output quality across groups](bias-output-quality.md)
-
-Risks related to harmful, demeaning, or unfair content in system outputs.
-
-- [Stereotyping and demeaning content](stereotyping-demeaning-content.md)
-- [Harmful content and toxicity](harmful-content-toxicity.md)
-- [Sentiment fairness across groups](sentiment-fairness.md)
-
-### [Performance disparities](bias-performance-disparities.md)
-
-Risks related to unequal system performance, access, or outcomes across population groups.
-
-- [Intersectional unfairness](intersectional-unfairness.md)
-- [Accessibility barriers](accessibility-barriers.md)
-- [Quality of service disparity across groups](quality-of-service-disparity.md)
-- [Unequal allocation of opportunity](allocation-of-opportunity.md)
-- [Performance equity across populations](performance-equity.md)
+- [Data & representation](bias-data-representation.md) — Risks arising from how data is collected, composed, and represented in training and evaluation datasets.
+- [Output quality across groups](bias-output-quality.md) — Risks related to harmful, demeaning, or unfair content in system outputs.
+- [Performance disparities](bias-performance-disparities.md) — Risks related to unequal system performance, access, or outcomes across population groups.
 
 ## Mappings to external frameworks
 

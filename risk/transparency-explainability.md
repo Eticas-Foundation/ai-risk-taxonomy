@@ -21,20 +21,10 @@ The risk that stakeholders cannot understand how an AI system works, what it doe
 **Applies to:** ALL  
 **Lifecycle stages:** Post Processing
 
-### [Explainability](transparency-explainability-group.md)
+## Risk groups
 
-Risks from stakeholders being unable to understand why the system produces specific outputs.
-
-- [AI system explainability](system-explainability.md)
-- [Prompt transparency](prompt-transparency.md)
-
-### [Communication & disclosure](transparency-communication.md)
-
-Risks from inadequate communication about system capabilities, limitations, and AI involvement.
-
-- [Communication to stakeholders](stakeholder-communication.md)
-- [Disclosure of AI interaction](ai-interaction-disclosure.md)
-- [Model card completeness](model-card-completeness.md)
+- [Explainability](transparency-explainability-group.md) — Risks from stakeholders being unable to understand why the system produces specific outputs.
+- [Communication & disclosure](transparency-communication.md) — Risks from inadequate communication about system capabilities, limitations, and AI involvement.
 
 ## Mappings to external frameworks
 
