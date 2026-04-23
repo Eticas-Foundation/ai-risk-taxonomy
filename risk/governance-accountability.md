@@ -19,3 +19,10 @@ Risks from unclear responsibility, attribution, and oversight of AI system impac
 - [Unclear responsibilities and accountability gaps](unclear-responsibilities.md)
 - [Responsible actor attribution](responsible-actor-attribution.md)
 - [Oversight of significant adverse impacts](oversight-of-adverse-impacts.md)
+
+## Mappings to external frameworks
+
+| Framework | Concept | Relationship |
+|-----------|---------|-------------|
+| [NIST AI Risk Management Framework (AI 100-1)](https://www.nist.gov/itl/ai-risk-management-framework) | GOVERN function | broad match |
+| [OECD AI Principles](https://oecd.ai) | Accountability | close match |

@@ -18,3 +18,10 @@ Risks from inadequate incident response and use of the system beyond its intende
 
 - [Incident response gaps](incident-response-gaps.md)
 - [Misuse beyond intended purpose](misuse-beyond-intended-purpose.md)
+
+## Mappings to external frameworks
+
+| Framework | Concept | Relationship |
+|-----------|---------|-------------|
+| [MIT AI Risk Repository](https://airisk.mit.edu) | Malicious Actors and Misuse | close match |
+| [EU AI Act (Regulation 2024/1689)](https://artificialintelligenceact.eu) | Article 15(5) — Cybersecurity | related match |
