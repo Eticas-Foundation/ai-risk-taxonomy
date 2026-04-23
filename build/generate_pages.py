@@ -87,7 +87,7 @@ def generate_concept_page(c, by_id, children, config):
 
         if subgroups:
             for sg in subgroups:
-                lines.append(f'### {sg["label"]}')
+                lines.append(f'### [{sg["label"]}]({sg["id"]}.md)')
                 lines.append("")
                 if "definition" in sg:
                     lines.append(sg["definition"].strip())

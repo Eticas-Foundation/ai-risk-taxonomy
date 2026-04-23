@@ -49,6 +49,16 @@ concepts:
   broader: bias-fairness
   label: Data & representation
   definition: Risks arising from how data is collected, composed, and represented in training and evaluation datasets.
+  mappings:
+  - framework: mit
+    target_id: subdomain-1.1
+    target_label: Unfair discrimination and misrepresentation
+    relation: closeMatch
+  - framework: dpv_ai
+    target_id: DataBias
+    target_label: Data Bias
+    target_url: https://w3c.github.io/dpv/2.3/ai/#DataBias
+    relation: closeMatch
 - id: dataset-bias
   type: subcategory
   broader: bias-data-representation
@@ -110,6 +120,15 @@ concepts:
   broader: bias-fairness
   label: Output quality across groups
   definition: Risks related to harmful, demeaning, or unfair content in system outputs.
+  mappings:
+  - framework: mit
+    target_id: subdomain-1.2
+    target_label: Exposure to toxic content
+    relation: closeMatch
+  - framework: nist_600
+    target_id: '5'
+    target_label: Dangerous, Violent, or Hateful Content
+    relation: relatedMatch
 - id: stereotyping-demeaning-content
   type: subcategory
   broader: bias-output-quality
@@ -173,6 +192,15 @@ concepts:
   broader: bias-fairness
   label: Performance disparities
   definition: Risks related to unequal system performance, access, or outcomes across population groups.
+  mappings:
+  - framework: mit
+    target_id: subdomain-1.3
+    target_label: Unequal performance across groups
+    relation: closeMatch
+  - framework: nist_rmf
+    target_id: fair
+    target_label: Fair with Harmful Bias Managed
+    relation: closeMatch
 - id: intersectional-unfairness
   type: subcategory
   broader: bias-performance-disparities
