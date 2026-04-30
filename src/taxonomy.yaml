@@ -1235,6 +1235,34 @@ concepts:
   lifecycle_stages:
   - post-processing
   source: HRA
+- id: model-extraction
+  type: subcategory
+  broader: security-ai-attacks
+  maturity: established
+  label: Model extraction
+  definition: Attacks that aim to recover or replicate the underlying AI model, its parameters, or its training data through
+    queried interactions, enabling intellectual property theft or further targeted attacks against the system.
+  scope: ALL
+  lifecycle_stages:
+  - post-processing
+  alt_labels:
+  - Model stealing
+  - Model inversion
+- id: data-poisoning
+  type: subcategory
+  broader: security-ai-attacks
+  maturity: established
+  label: Data poisoning
+  definition: Adversarial manipulation of training or fine-tuning data to introduce backdoors, bias, or systematic errors
+    into the model. Includes both broad-spectrum poisoning (degrading overall performance) and targeted poisoning (creating
+    exploitable triggers or specific failure modes).
+  scope: ALL
+  lifecycle_stages:
+  - pre-processing
+  - in-processing
+  alt_labels:
+  - Training data poisoning
+  - Backdoor attacks
 - id: security-system
   type: subgroup
   broader: security-misuse
@@ -1288,9 +1316,12 @@ concepts:
     target_id: article-15-5
     target_label: Article 15(5) — Cybersecurity
     relation: relatedMatch
+  status: retired
+  retirement_note: Dissolved in v0.3. misuse-beyond-intended-purpose moved to Security/Harmful Misuse; incident-response-gaps
+    moved to Governance/Compliance & process.
 - id: incident-response-gaps
   type: subcategory
-  broader: security-operational
+  broader: governance-compliance
   maturity: established
   label: Incident response gaps
   definition: 'Insufficient detection, logging, escalation, or response capabilities for security incidents and misuse events.
@@ -1301,7 +1332,7 @@ concepts:
   - post-processing
 - id: misuse-beyond-intended-purpose
   type: subcategory
-  broader: security-operational
+  broader: security-harmful-misuse
   maturity: emerging
   label: Misuse beyond intended purpose
   definition: 'Use of the system for purposes it was not designed for, including repurposing for surveillance, manipulation,
