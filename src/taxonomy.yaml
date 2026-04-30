@@ -654,6 +654,26 @@ concepts:
     target_id: PersonalDataHandling
     target_label: Personal Data Handling
     relation: broadMatch
+  - framework: eu_ai_act
+    target_id: article-10
+    target_label: Article 10 — data and data governance
+    relation: broadMatch
+  - framework: iso_42001
+    target_id: A.7.5
+    target_label: Privacy considerations for AI systems
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: A
+    target_label: Data & Privacy domain
+    relation: exactMatch
+  - framework: air_2024
+    target_id: L2-Privacy
+    target_label: Legal & Rights → Privacy (Unauthorized Privacy Violations × Sensitive Data types)
+    relation: broadMatch
+  - framework: ibm_atlas
+    target_id: input-output-privacy
+    target_label: Input → Data privacy + Output → Privacy violations
+    relation: closeMatch
 - id: privacy-collection-use
   type: subgroup
   broader: privacy-confidentiality
@@ -681,6 +701,19 @@ concepts:
   scope: ALL
   lifecycle_stages:
   - pre-processing
+  mappings:
+  - framework: eu_ai_act
+    target_id: article-10
+    target_label: Article 10 — data and data governance
+    relation: closeMatch
+  - framework: dpv_ai
+    target_id: PersonalDataHandling
+    target_label: Personal Data Handling
+    relation: closeMatch
+  - framework: air_2024
+    target_id: L3-UnauthorizedPrivacyViolations
+    target_label: Privacy → Unauthorized Privacy Violations
+    relation: closeMatch
 - id: function-creep
   type: subcategory
   broader: privacy-collection-use
@@ -693,6 +726,15 @@ concepts:
   scope: ALL
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: dpv_ai
+    target_id: PersonalDataHandling
+    target_label: Personal Data Handling (purpose limitation)
+    relation: relatedMatch
+  - framework: iso_42001
+    target_id: A.6.2.2
+    target_label: Documented intended use
+    relation: closeMatch
 - id: biometric-surveillance
   type: subcategory
   broader: privacy-collection-use
@@ -705,6 +747,19 @@ concepts:
   scope: ADM
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: eu_ai_act
+    target_id: article-5-1e
+    target_label: Article 5(1)(e) — untargeted facial recognition database scraping (prohibited)
+    relation: closeMatch
+  - framework: eu_ai_act
+    target_id: article-5-1g
+    target_label: Article 5(1)(g) — real-time remote biometric identification in public spaces
+    relation: closeMatch
+  - framework: air_2024
+    target_id: L3-PrivacyViolations-Biometric
+    target_label: Privacy → Unauthorized Privacy Violations × Biometric data
+    relation: closeMatch
 - id: emotion-inference-profiling
   type: subcategory
   broader: privacy-collection-use
@@ -718,6 +773,19 @@ concepts:
   lifecycle_stages:
   - in-processing
   - post-processing
+  mappings:
+  - framework: eu_ai_act
+    target_id: article-5-1f
+    target_label: Article 5(1)(f) — emotion recognition in workplace and education (prohibited)
+    relation: closeMatch
+  - framework: eu_ai_act
+    target_id: article-5-1g
+    target_label: Article 5(1)(g) — biometric categorization for sensitive attributes
+    relation: closeMatch
+  - framework: air_2024
+    target_id: L3-PrivacyViolations-Sensitive
+    target_label: Privacy → Sensitive attribute profiling
+    relation: closeMatch
 - id: privacy-data-protection
   type: subgroup
   broader: privacy-confidentiality
@@ -729,9 +797,13 @@ concepts:
     target_label: Data Privacy
     relation: closeMatch
   - framework: iso_42001
-    target_id: A.7
-    target_label: Data management
-    relation: relatedMatch
+    target_id: A.7.5
+    target_label: Privacy considerations for AI systems
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: A.5
+    target_label: Implement customer data policies
+    relation: closeMatch
 - id: weak-data-controls
   type: subcategory
   broader: privacy-data-protection
@@ -745,6 +817,15 @@ concepts:
   lifecycle_stages:
   - pre-processing
   - post-processing
+  mappings:
+  - framework: iso_42001
+    target_id: A.7.5
+    target_label: Privacy considerations for AI systems
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: A.5
+    target_label: Implement customer data policies
+    relation: closeMatch
 - id: re-identification
   type: subcategory
   broader: privacy-data-protection
@@ -758,6 +839,20 @@ concepts:
   lifecycle_stages:
   - pre-processing
   - post-processing
+  mappings:
+  - framework: dpv_ai
+    target_id: Reidentification
+    target_label: Re-identification
+    target_url: https://w3c.github.io/dpv/2.3/risk/#Reidentification
+    relation: exactMatch
+  - framework: mit
+    target_id: subdomain-2.1
+    target_label: Compromise of privacy by inferring sensitive information
+    relation: closeMatch
+  - framework: nist_600
+    target_id: data-privacy
+    target_label: Data Privacy (de-anonymization clause)
+    relation: narrowMatch
 - id: privacy-model-level
   type: subgroup
   broader: privacy-confidentiality
@@ -795,6 +890,36 @@ concepts:
   - in-processing
   - post-processing
   source: HRA
+  mappings:
+  - framework: mit
+    target_id: subdomain-2.1
+    target_label: Compromise of privacy by leaking or inferring sensitive information
+    relation: exactMatch
+  - framework: nist_600
+    target_id: data-privacy
+    target_label: Data Privacy (leakage clause)
+    relation: closeMatch
+  - framework: eu_ai_act
+    target_id: article-15-5
+    target_label: Article 15(5) — cybersecurity (confidentiality attacks)
+    relation: narrowMatch
+  - framework: dpv_ai
+    target_id: UnauthorisedDataDisclosure
+    target_label: Unauthorised Data Disclosure
+    target_url: https://w3c.github.io/dpv/2.3/risk/#UnauthorisedDataDisclosure
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: A.6
+    target_label: Prevent PII leakage
+    relation: exactMatch
+  - framework: air_2024
+    target_id: L3-PrivacyViolations-PII
+    target_label: Privacy → Unauthorized Privacy Violations × PII
+    relation: exactMatch
+  - framework: ibm_atlas
+    target_id: personal-information-output
+    target_label: Output → Revealing personal information in output
+    relation: exactMatch
 - id: membership-inference
   type: subcategory
   broader: privacy-model-level
@@ -809,6 +934,16 @@ concepts:
   - in-processing
   - post-processing
   source: HRA
+  mappings:
+  - framework: dpv_ai
+    target_id: MembershipInferenceAttack
+    target_label: Membership Inference Attack
+    target_url: https://w3c.github.io/dpv/2.3/ai/#MembershipInferenceAttack
+    relation: exactMatch
+  - framework: mit
+    target_id: subdomain-2.1
+    target_label: Compromise of privacy by inferring sensitive information
+    relation: narrowMatch
 - id: reliability
   type: category
   label: Reliability
@@ -852,6 +987,26 @@ concepts:
     target_id: robustness
     target_label: Robustness, security & safety
     relation: broadMatch
+  - framework: eu_ai_act
+    target_id: article-15
+    target_label: Article 15 — accuracy, robustness and cybersecurity
+    relation: closeMatch
+  - framework: iso_42001
+    target_id: A.6.2.4
+    target_label: AI system verification and validation
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: D
+    target_label: Reliability domain
+    relation: exactMatch
+  - framework: air_2024
+    target_id: L2-OperationalMisuses
+    target_label: System & Operational Risks → Operational Misuses
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: output-robustness
+    target_label: Output → Robustness + Inference → Accuracy
+    relation: closeMatch
   references:
   - label: HealthBench Professional (OpenAI, 2025)
     url: https://cdn.openai.com/dd128428-0184-4e25-b155-3a7686c7d744/HealthBench-Professional.pdf
@@ -872,6 +1027,14 @@ concepts:
   - framework: nist_rmf
     target_id: valid-reliable
     target_label: Valid & Reliable
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: D.1
+    target_label: Prevent hallucinated outputs
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: output-robustness
+    target_label: Output → Robustness
     relation: closeMatch
 - id: hallucination
   type: subcategory
@@ -894,6 +1057,22 @@ concepts:
     target_id: confabulation
     target_label: Confabulation
     relation: exactMatch
+  - framework: mit
+    target_id: subdomain-3.1
+    target_label: False or misleading information
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: hallucination
+    target_label: Output → Robustness → Hallucination
+    relation: exactMatch
+  - framework: aiuc1
+    target_id: D.1
+    target_label: Prevent hallucinated outputs
+    relation: exactMatch
+  - framework: aiuc1
+    target_id: D.2
+    target_label: Third-party testing for hallucinations
+    relation: exactMatch
 - id: output-inconsistency
   type: subcategory
   broader: reliability-output-quality
@@ -906,6 +1085,15 @@ concepts:
   lifecycle_stages:
   - in-processing
   - post-processing
+  mappings:
+  - framework: nist_rmf
+    target_id: valid-reliable
+    target_label: Valid & Reliable (consistency)
+    relation: narrowMatch
+  - framework: aiuc1
+    target_id: D.1
+    target_label: Prevent hallucinated outputs
+    relation: narrowMatch
 - id: output-drift
   type: subcategory
   broader: reliability-output-quality
@@ -918,6 +1106,15 @@ concepts:
   scope: ALL
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: iso_42001
+    target_id: A.6.2.6
+    target_label: AI system operation and monitoring
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: output-drift
+    target_label: Output → Drift
+    relation: closeMatch
 - id: out-of-distribution-robustness
   type: subcategory
   broader: reliability-output-quality
@@ -932,6 +1129,15 @@ concepts:
   - in-processing
   - post-processing
   source: HRA
+  mappings:
+  - framework: mit
+    target_id: subdomain-7.3
+    target_label: Lack of capability or robustness
+    relation: narrowMatch
+  - framework: nist_rmf
+    target_id: valid-reliable
+    target_label: Valid & Reliable (robustness to distribution shift)
+    relation: narrowMatch
 - id: reliability-monitoring
   type: subgroup
   broader: reliability
@@ -1031,6 +1237,27 @@ concepts:
   scope: ALL
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: eu_ai_act
+    target_id: article-5-1a
+    target_label: Article 5(1)(a) — subliminal/manipulative techniques (prohibited)
+    relation: exactMatch
+  - framework: eu_ai_act
+    target_id: article-5-1b
+    target_label: Article 5(1)(b) — exploitation of vulnerabilities (prohibited)
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-4.3
+    target_label: Fraud, scams, and targeted manipulation
+    relation: closeMatch
+  - framework: air_2024
+    target_id: L2-Manipulation
+    target_label: Societal Risks → Manipulation
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: C.3
+    target_label: Prevent harmful outputs
+    relation: relatedMatch
 - id: synthetic-media-abuse
   type: subcategory
   broader: security-harmful-misuse
@@ -1040,6 +1267,27 @@ concepts:
   scope: LLM
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: nist_600
+    target_id: information-integrity
+    target_label: Information Integrity
+    relation: closeMatch
+  - framework: eu_ai_act
+    target_id: article-50
+    target_label: Article 50 — transparency obligations for deepfakes
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-4.1
+    target_label: Disinformation, surveillance and influence at scale
+    relation: closeMatch
+  - framework: air_2024
+    target_id: L2-Deception
+    target_label: Societal Risks → Deception (Misrepresentation, Disinformation)
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: misinformation
+    target_label: Output → Misinformation
+    relation: closeMatch
 - id: reliability-resilience
   type: subgroup
   broader: reliability
@@ -1056,6 +1304,18 @@ concepts:
     target_id: article-15-4
     target_label: Article 15(4) — Resilience regarding errors, faults or inconsistencies
     relation: broadMatch
+  - framework: mit
+    target_id: subdomain-7.3
+    target_label: Lack of capability or robustness
+    relation: broadMatch
+  - framework: oecd
+    target_id: principle-1.4
+    target_label: Robustness, security & safety
+    relation: broadMatch
+  - framework: iso_42001
+    target_id: A.6.2.6
+    target_label: AI system operation and monitoring
+    relation: relatedMatch
 - id: graceful-degradation
   type: subcategory
   broader: reliability-resilience
@@ -1426,6 +1686,22 @@ concepts:
     target_id: SecurityAttack
     target_label: Security Attack
     relation: broadMatch
+  - framework: eu_ai_act
+    target_id: article-15-5
+    target_label: Article 15(5) — cybersecurity (resilience against attacks)
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: B
+    target_label: Security domain (and Society domain F for misuse)
+    relation: closeMatch
+  - framework: air_2024
+    target_id: L1-SystemOperational
+    target_label: System & Operational Risks (Security + Operational Misuses)
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: security-misuse
+    target_label: Inference → Adversarial robustness + Non-technical → Misuse
+    relation: closeMatch
 - id: security-ai-attacks
   type: subgroup
   broader: security-misuse
@@ -1441,6 +1717,22 @@ concepts:
     target_id: subdomain-2.2
     target_label: AI system security vulnerabilities and attacks
     relation: closeMatch
+  - framework: nist_rmf
+    target_id: secure-resilient
+    target_label: Secure & Resilient (adversarial ML)
+    relation: closeMatch
+  - framework: eu_ai_act
+    target_id: article-15-5
+    target_label: Article 15(5) — cybersecurity (Recital 76 enumerates poisoning, evasion, confidentiality attacks)
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: B.1
+    target_label: Third-party testing of adversarial robustness
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: robustness-adversarial
+    target_label: Inference → Robustness → Adversarial robustness
+    relation: closeMatch
 - id: adversarial-attacks
   type: subcategory
   broader: security-ai-attacks
@@ -1454,6 +1746,24 @@ concepts:
   lifecycle_stages:
   - in-processing
   - post-processing
+  mappings:
+  - framework: dpv_ai
+    target_id: AdversarialAttack
+    target_label: Adversarial Attack
+    target_url: https://w3c.github.io/dpv/2.3/ai/#AdversarialAttack
+    relation: exactMatch
+  - framework: mit
+    target_id: subdomain-2.2
+    target_label: AI system security vulnerabilities and attacks
+    relation: narrowMatch
+  - framework: aiuc1
+    target_id: B.2
+    target_label: Detect adversarial input
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: robustness-adversarial
+    target_label: Inference → Robustness → Adversarial robustness
+    relation: closeMatch
 - id: prompt-injection
   type: subcategory
   broader: security-ai-attacks
@@ -1474,6 +1784,14 @@ concepts:
     target_id: PromptInjection
     target_label: Prompt Injection
     relation: exactMatch
+  - framework: aiuc1
+    target_id: B.2
+    target_label: Detect adversarial input
+    relation: closeMatch
+  - framework: nist_600
+    target_id: information-security
+    target_label: Information Security
+    relation: narrowMatch
 - id: jailbreaking
   type: subcategory
   broader: security-ai-attacks
@@ -1489,6 +1807,15 @@ concepts:
   lifecycle_stages:
   - post-processing
   source: HRA
+  mappings:
+  - framework: aiuc1
+    target_id: C.1
+    target_label: Prevent jailbreaks (safety controls)
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-2.2
+    target_label: AI system security vulnerabilities and attacks
+    relation: narrowMatch
 - id: model-extraction
   type: subcategory
   broader: security-ai-attacks
@@ -1502,6 +1829,36 @@ concepts:
   alt_labels:
   - Model stealing
   - Model inversion
+  mappings:
+  - framework: ibm_atlas
+    target_id: extraction-attack
+    target_label: Inference → Extraction attack
+    relation: exactMatch
+  - framework: dpv_ai
+    target_id: ModelInversion
+    target_label: Model Inversion
+    target_url: https://w3c.github.io/dpv/2.3/ai/#ModelInversion
+    relation: closeMatch
+  - framework: nist_600
+    target_id: information-security
+    target_label: Information Security (exfiltration of model weights/training data)
+    relation: narrowMatch
+  - framework: nist_rmf
+    target_id: secure-resilient
+    target_label: Secure & Resilient (confidentiality attacks)
+    relation: narrowMatch
+  - framework: eu_ai_act
+    target_id: article-15-5
+    target_label: Article 15(5) — cybersecurity (Recital 76 confidentiality attacks)
+    relation: narrowMatch
+  - framework: aiuc1
+    target_id: B.4
+    target_label: Prevent AI endpoint scraping
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-2.2
+    target_label: AI system security vulnerabilities and attacks
+    relation: narrowMatch
 - id: data-poisoning
   type: subcategory
   broader: security-ai-attacks
@@ -1517,6 +1874,36 @@ concepts:
   alt_labels:
   - Training data poisoning
   - Backdoor attacks
+  mappings:
+  - framework: dpv_ai
+    target_id: DataPoisoning
+    target_label: Data Poisoning
+    target_url: https://w3c.github.io/dpv/2.3/ai/#DataPoisoning
+    relation: exactMatch
+  - framework: ibm_atlas
+    target_id: data-poisoning
+    target_label: Input → Data poisoning / Training-data tampering
+    relation: exactMatch
+  - framework: eu_ai_act
+    target_id: recital-76
+    target_label: Recital 76 — data poisoning (cybersecurity)
+    relation: exactMatch
+  - framework: nist_600
+    target_id: information-security
+    target_label: Information Security (data poisoning)
+    relation: narrowMatch
+  - framework: nist_rmf
+    target_id: secure-resilient
+    target_label: Secure & Resilient (training-time attacks)
+    relation: narrowMatch
+  - framework: aiuc1
+    target_id: B.1
+    target_label: Third-party testing of adversarial robustness
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-2.2
+    target_label: AI system security vulnerabilities and attacks
+    relation: narrowMatch
 - id: security-system
   type: subgroup
   broader: security-misuse
@@ -1528,9 +1915,17 @@ concepts:
     target_label: Information Security
     relation: closeMatch
   - framework: iso_42001
-    target_id: A.6.2.3
-    target_label: AI system technical documentation and information security
-    relation: relatedMatch
+    target_id: A.6.2.5
+    target_label: AI system deployment (secure deployment)
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: B
+    target_label: Security domain
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: security-non-technical
+    target_label: Non-technical → Misuse + Inference → Security
+    relation: closeMatch
 - id: unauthorized-access
   type: subcategory
   broader: security-system
@@ -1543,6 +1938,15 @@ concepts:
   scope: ALL
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: aiuc1
+    target_id: B.6
+    target_label: Prevent unauthorized AI agent actions
+    relation: closeMatch
+  - framework: dpv_ai
+    target_id: SecurityAttack
+    target_label: Security Attack (unauthorized access)
+    relation: narrowMatch
 - id: supply-chain-vulnerabilities
   type: subcategory
   broader: security-system
@@ -1556,6 +1960,19 @@ concepts:
   lifecycle_stages:
   - pre-processing
   - in-processing
+  mappings:
+  - framework: nist_600
+    target_id: value-chain
+    target_label: Value Chain and Component Integration
+    relation: closeMatch
+  - framework: iso_42001
+    target_id: A.10
+    target_label: Third-party and customer relationships
+    relation: closeMatch
+  - framework: eu_ai_act
+    target_id: article-25
+    target_label: Article 25 — value-chain responsibilities
+    relation: closeMatch
 - id: security-operational
   type: subgroup
   broader: security-misuse
@@ -1596,6 +2013,27 @@ concepts:
   scope: ALL
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: oecd
+    target_id: principle-1.4
+    target_label: Robustness, security & safety (uses outside intended purpose)
+    relation: closeMatch
+  - framework: nist_600
+    target_id: cbrn
+    target_label: CBRN Information or Capabilities (extreme misuse)
+    relation: narrowMatch
+  - framework: dpv_ai
+    target_id: Misuse
+    target_label: Misuse
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: F.2
+    target_label: Prevent catastrophic misuse
+    relation: closeMatch
+  - framework: air_2024
+    target_id: L1-MaliciousActorsMisuse
+    target_label: Malicious Actors & Misuse
+    relation: closeMatch
 - id: security-harmful-misuse
   type: subgroup
   broader: security-misuse
@@ -1603,6 +2041,35 @@ concepts:
   definition: Risks from deliberate misuse of the AI system to generate harmful content, manipulate users, or operate beyond
     its intended purpose. These risks involve human intent — distinguishing them from unintentional system failures (which
     belong under Reliability).
+  mappings:
+  - framework: nist_600
+    target_id: dangerous-content
+    target_label: Dangerous, Violent or Hateful Content + CBRN + Obscene/Abusive
+    relation: closeMatch
+  - framework: mit
+    target_id: domain-4
+    target_label: Malicious Actors & Misuse
+    relation: closeMatch
+  - framework: eu_ai_act
+    target_id: article-5-1a
+    target_label: Article 5(1)(a) — prohibited manipulative practices
+    relation: closeMatch
+  - framework: nist_rmf
+    target_id: safe
+    target_label: Safe (trustworthy characteristic)
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: F
+    target_label: Society domain (cyber misuse + catastrophic misuse)
+    relation: closeMatch
+  - framework: air_2024
+    target_id: L2-Manipulation
+    target_label: Societal Risks → Manipulation, Deception, Political Usage
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: harmful-output-misuse
+    target_label: Output → Harmful output + Non-technical → Misuse
+    relation: closeMatch
 - id: environmental-impact
   type: category
   label: Environmental Impact
