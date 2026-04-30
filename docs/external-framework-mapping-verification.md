@@ -3,6 +3,8 @@
 This document records the verification and expansion of the external framework mappings carried out for the v0.3 restructuring. It served as the working reference for the mappings applied to `src/taxonomy.yaml` during Phase 5 of the v0.3 implementation.
 
 > **Status:** Applied (May 2026). The mappings catalogued here were applied to the YAML across four pull requests (one per category cluster) and merged into v0.3.0. The document is preserved as the research record behind each mapping decision; minor adjustments were made during application where framework wording warranted a different relation type. For the cumulative result of the work and the per-framework mapping counts, see [TRACKER.md](../TRACKER.md). For the changelog summary, see [CHANGELOG.md](../CHANGELOG.md).
+>
+> **Note on the citation and source-URL columns:** the per-mapping `Citation/quote` and `Source URL` columns in the tables below were *not* propagated into the YAML during Phase 5 — only the match type, target id, and target label were applied. Carrying the citations and direct source URLs into the rendered concept pages is documented as a pending follow-up for a future minor version (see TRACKER.md, Phase 5 → Pending). This document remains the input source for that work.
 
 ## Methodology
 

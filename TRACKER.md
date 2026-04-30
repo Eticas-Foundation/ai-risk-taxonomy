@@ -107,6 +107,24 @@ The full external framework mapping refresh was applied across four PRs, one per
 - AIUC-1 weaknesses identified in the verification document were honoured rather than papered over: where AIUC-1 has no equivalent (notably for `bias-and-fairness` subcategories beyond customer-defined high-risk outputs, and for `environmental-impact`), the mappings were left absent, preserving the gap as visible information for clients evaluating AIUC-1 certification.
 - Five subcategories under `reliability-resilience` (graceful degradation, edge/offline operability, recovery capability, infrastructure dependency, contextual resilience) were left without subcategory-level mappings. They are emerging concepts originating in humanitarian and conflict-zone contexts, with no clean equivalents in the surveyed frameworks. The parent sub-group has its own mappings.
 
+### Pending for a future minor version: per-mapping citations and direct source URLs
+
+A working preference recorded at the start of Phase 5 was for each mapping entry to carry, beyond the framework label and match type, a one- to two-sentence quote or paraphrase of how the original framework formulates the concept, plus a direct URL to the specific article, section, or concept (rather than just the framework's home page). This would let a human reader on a concept page evaluate the strength of a given match without leaving the site, and would make compliance audits more defensible — particularly for `exactMatch` claims against EU AI Act articles or DPV concept IRIs.
+
+The research underpinning this is already done: every mapping in [docs/external-framework-mapping-verification.md](docs/external-framework-mapping-verification.md) carries a "Citation/quote" column and a "Source URL" column. The work pending is mechanical: copy that data into the YAML and surface it in the rendered tables.
+
+**Proposed implementation when picked up:**
+
+1. Add two optional fields to mapping entries in `src/taxonomy.yaml`:
+   - `citation` — 1–2 sentence paraphrase or short quote, sufficient for a reader to evaluate similarity (≤25 words to respect copyright on regulatory text)
+   - `source_url` — direct link to the specific article / section / concept IRI (the framework-level URL is already on `mappings.yaml`)
+2. Update `build/check_yaml.py` to validate them as optional and constrain `citation` length
+3. Update `build/generate_pages.py` to render the citation as a third or fourth column on internal pages (and possibly as a hover tooltip on public pages, where match types are hidden but a citation would still help the reader)
+
+**Recommended scope:** rather than backfilling all 378 mappings at once, prioritise the ~50 `exactMatch` entries and the EU AI Act / DPV / ISO 42001 mappings (the compliance bucket). These are the cases where the citation has the strongest practical value for audit and client communication. Other mappings can be filled in over time, on demand.
+
+This is a v0.3.x or v0.4 candidate, not blocking the v0.3.0 release.
+
 ---
 
 ## v0.2.0 — Restructuring (April 2026)
