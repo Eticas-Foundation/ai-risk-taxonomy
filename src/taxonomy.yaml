@@ -997,6 +997,11 @@ concepts:
   - pre-processing
   - in-processing
   - post-processing
+  operationalisation:
+  - id: model-card-completeness
+    label: Model card completeness
+    description: Incomplete or outdated documentation of model purpose, performance, limitations, or data sources, leading
+      to inappropriate deployment or overestimation of capabilities.
 - id: limited-auditability
   type: subcategory
   broader: governance-documentation
@@ -1484,6 +1489,28 @@ concepts:
   lifecycle_stages:
   - post-processing
   source: HRA
+  operationalisation:
+  - id: prompt-transparency
+    label: Prompt transparency
+    description: Inconsistent outputs to semantically similar inputs that confuse users and erode trust. For LLMs, variation
+      across generations may lead to contradictory advice or conflicting factual claims.
+- id: right-to-explanation-contestation
+  type: subcategory
+  broader: transparency-explainability-group
+  maturity: established
+  label: Right to explanation and contestation
+  definition: The risk that affected individuals are not informed about decisions taken with AI assistance, do not receive
+    a meaningful explanation of those decisions, or have no effective channel to challenge or appeal them. Includes obligations
+    under GDPR Article 22 (rights regarding automated individual decision-making) and EU AI Act Article 13 (transparency and
+    provision of information to deployers and affected persons).
+  scope: ADM
+  lifecycle_stages:
+  - post-processing
+  alt_labels:
+  - Right to explanation
+  - Right to contest
+  - Absence of appeal mechanisms
+  - Ineffective communication with affected parties
 - id: prompt-transparency
   type: subcategory
   broader: transparency-explainability-group
@@ -1497,6 +1524,8 @@ concepts:
   lifecycle_stages:
   - post-processing
   source: HRA
+  status: retired
+  retirement_note: Reframed in v0.3 as operationalisation, not a risk in itself. Now appears as operationalisation under system-explainability.
 - id: transparency-communication
   type: subgroup
   broader: transparency-explainability
@@ -1515,9 +1544,10 @@ concepts:
   type: subcategory
   broader: transparency-communication
   maturity: emerging
-  label: Communication to stakeholders
+  label: Inadequate disclosure of system capabilities and limitations
   alt_labels:
   - Communication to relevant interested parties
+  - Communication to stakeholders
   definition: 'Stakeholders not being made aware of AI system limitations, parameters, and settings that affect responsible
     use.
 
@@ -1553,6 +1583,9 @@ concepts:
   - pre-processing
   - post-processing
   source: HRA
+  status: retired
+  retirement_note: Reframed in v0.3 as operationalisation, not a risk in itself. Now appears as operationalisation under poor-documentation
+    (Governance).
 - id: incident-reporting-redress
   type: category
   label: Incident Reporting & Redress
