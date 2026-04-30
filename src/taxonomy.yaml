@@ -191,10 +191,8 @@ concepts:
   broader: bias-representational-harm
   maturity: emerging
   label: Sentiment and quality disparity across groups
-  definition: 'Unequal emotional tone in system outputs across demographic groups, leading to perceived or actual bias in
-    how people are treated or described.
-
-    '
+  definition: The system produces outputs of systematically different tone, sentiment, or quality when describing or addressing
+    different demographic groups — for example, more negative, more dismissive, or less detailed responses for certain populations.
   scope: LLM
   lifecycle_stages:
   - post-processing
@@ -290,10 +288,8 @@ concepts:
   alt_labels:
   - Group-wise error rate
   - Performance equity across populations
-  definition: 'Higher error rates or lower accuracy for specific demographic groups, resulting in unfair or unequal service
-    delivery.
-
-    '
+  definition: The AI system performs systematically worse for some demographic groups than others — through higher error rates,
+    lower accuracy, or reduced reliability — leading to unequal quality of service even when access is the same.
   scope: ALL
   lifecycle_stages:
   - in-processing
@@ -923,7 +919,8 @@ concepts:
   type: subgroup
   broader: governance
   label: Accountability
-  definition: Risks from unclear responsibility, attribution, and oversight of AI system impacts.
+  definition: Risks from unclear allocation of responsibility, weak human oversight, and inadequate attribution mechanisms
+    for AI system decisions and their adverse impacts.
   mappings:
   - framework: nist_rmf
     target_id: govern-function
@@ -1050,7 +1047,9 @@ concepts:
   type: subgroup
   broader: governance
   label: Compliance & process
-  definition: Risks from non-compliance with regulations, absence of change management, and lack of fitness validation.
+  definition: Risks from gaps in organisational processes for ongoing oversight, compliance, and lifecycle management of AI
+    systems — including regulatory compliance, change management, data governance, monitoring and evaluation, remediation
+    of failures, and incident response.
   mappings:
   - framework: iso_42001
     target_id: A.9.3
@@ -1497,8 +1496,9 @@ concepts:
   operationalisation:
   - id: prompt-transparency
     label: Prompt transparency
-    description: Inconsistent outputs to semantically similar inputs that confuse users and erode trust. For LLMs, variation
-      across generations may lead to contradictory advice or conflicting factual claims.
+    description: Whether the system's underlying prompts, instructions, or guiding context are visible or comprehensible to
+      users. Particularly relevant for LLM-based systems where outputs depend heavily on hidden system prompts that shape
+      behaviour.
 - id: right-to-explanation-contestation
   type: subcategory
   broader: transparency-explainability-group
@@ -1561,10 +1561,8 @@ concepts:
   alt_labels:
   - Communication to relevant interested parties
   - Communication to stakeholders
-  definition: 'Stakeholders not being made aware of AI system limitations, parameters, and settings that affect responsible
-    use.
-
-    '
+  definition: The AI system's capabilities, limitations, intended use cases, and known failure modes are not communicated
+    clearly to deployers, users, or affected parties, leading to misuse, over-reliance, or under-reliance on the system.
   scope: ALL
   lifecycle_stages:
   - post-processing
