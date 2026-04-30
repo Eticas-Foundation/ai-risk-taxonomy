@@ -2814,6 +2814,26 @@ concepts:
     target_id: article-14
     target_label: Article 14 — Human oversight
     relation: broadMatch
+  - framework: nist_rmf
+    target_id: govern-3
+    target_label: GOVERN 3 — Human-AI configurations + MANAGE 1 risk-prioritised oversight
+    relation: relatedMatch
+  - framework: oecd
+    target_id: principle-1.2
+    target_label: Human agency and oversight (added in 2024 update)
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: B.6
+    target_label: Prevent unauthorized AI agent actions + C.7 Human review
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: value-alignment-anthropomorphisation
+    target_label: Non-technical → Value alignment + Output → Anthropomorphisation
+    relation: closeMatch
+  - framework: iso_42001
+    target_id: A.6.2.7
+    target_label: Human oversight (lifecycle controls)
+    relation: closeMatch
 - id: autonomy-human-agency
   type: subgroup
   broader: autonomy-agency
@@ -2823,6 +2843,19 @@ concepts:
   - framework: mit
     target_id: subdomain-5.1
     target_label: Overreliance and unsafe use
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-5.2
+    target_label: Loss of human agency and autonomy
+    relation: closeMatch
+  - framework: nist_600
+    target_id: '7'
+    target_label: Human-AI Configuration
+    relation: closeMatch
+  - framework: dpv_ai
+    target_id: AutomationBias
+    target_label: Automation Bias
+    target_url: https://w3c.github.io/dpv/2.3/ai/#AutomationBias
     relation: closeMatch
 - id: automation-bias
   label: Automation bias
@@ -2834,6 +2867,20 @@ concepts:
   maturity: emerging
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: dpv_ai
+    target_id: AutomationBias
+    target_label: Automation Bias
+    target_url: https://w3c.github.io/dpv/2.3/ai/#AutomationBias
+    relation: exactMatch
+  - framework: nist_600
+    target_id: '7'
+    target_label: Human-AI Configuration (automation bias)
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-5.1
+    target_label: Overreliance and unsafe use
+    relation: closeMatch
 - id: trust-calibration
   label: Trust calibration
   definition: Inappropriate levels of trust in AI outputs — either excessive trust leading to uncritical acceptance, or insufficient
@@ -2844,6 +2891,15 @@ concepts:
   maturity: emerging
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: nist_600
+    target_id: '7'
+    target_label: Human-AI Configuration (calibrated trust)
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-5.1
+    target_label: Overreliance and unsafe use
+    relation: relatedMatch
 - id: deskilling
   label: Deskilling
   definition: Erosion of human skills, expertise, or professional judgment through prolonged delegation of tasks to AI systems.
@@ -2853,6 +2909,15 @@ concepts:
   maturity: emerging
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: mit
+    target_id: subdomain-6.3
+    target_label: Economic and cultural devaluation of human effort
+    relation: closeMatch
+  - framework: oecd
+    target_id: recommendation-2.4
+    target_label: Building human capacity & preparing for labour-market transition
+    relation: relatedMatch
 - id: over-reliance
   label: Over-reliance on AI
   definition: Systemic dependence on AI systems that leaves individuals or organisations unable to function when the system
@@ -2863,6 +2928,19 @@ concepts:
   maturity: emerging
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: mit
+    target_id: subdomain-5.1
+    target_label: Overreliance and unsafe use
+    relation: exactMatch
+  - framework: nist_600
+    target_id: '7'
+    target_label: Human-AI Configuration (over-reliance)
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: anthropomorphisation
+    target_label: Output → Anthropomorphisation (over-reliance)
+    relation: closeMatch
 - id: autonomy-system-autonomy
   type: subgroup
   broader: autonomy-agency
@@ -2872,6 +2950,18 @@ concepts:
   - framework: mit
     target_id: subdomain-7.6
     target_label: Multi-agent risks
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-7.1
+    target_label: AI pursuing its own goals
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: B.6
+    target_label: Prevent unauthorized AI agent actions
+    relation: closeMatch
+  - framework: air_2024
+    target_id: L3-AutonomousUnsafeOperation
+    target_label: Operational Misuses → Autonomous Unsafe Operation of Systems
     relation: closeMatch
 - id: multi-step-actions
   label: Multi-step autonomous actions
@@ -2883,6 +2973,15 @@ concepts:
   maturity: emerging
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: aiuc1
+    target_id: B.6
+    target_label: Prevent unauthorized AI agent actions
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-7.6
+    target_label: Multi-agent risks
+    relation: relatedMatch
 - id: tool-use-risks
   label: Tool use risks
   definition: AI systems that interact with external tools, APIs, or services, creating unintended side effects or security
@@ -2893,6 +2992,11 @@ concepts:
   maturity: emerging
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: aiuc1
+    target_id: B.6
+    target_label: Prevent unauthorized AI agent actions (tool-call safety)
+    relation: closeMatch
 - id: emergent-behaviour
   label: Emergent behaviour
   definition: Unexpected capabilities or behaviours arising from agent interactions, multi-model coordination, or complex
@@ -2903,6 +3007,15 @@ concepts:
   maturity: emerging
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: mit
+    target_id: subdomain-7.6
+    target_label: Multi-agent risks (emergent dynamics)
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-7.1
+    target_label: AI pursuing its own goals
+    relation: closeMatch
 - id: loss-of-human-control
   label: Loss of meaningful human control
   definition: AI systems operating at speeds or complexity levels that make meaningful human oversight impractical, including
@@ -2913,6 +3026,19 @@ concepts:
   maturity: emerging
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: mit
+    target_id: subdomain-5.2
+    target_label: Loss of human agency and autonomy
+    relation: exactMatch
+  - framework: eu_ai_act
+    target_id: article-14
+    target_label: Article 14 — Human oversight (effective oversight)
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: C.7
+    target_label: Flag high-risk outputs for human review
+    relation: closeMatch
 - id: organisational-readiness
   type: category
   label: Organisational Readiness
@@ -2936,9 +3062,29 @@ concepts:
     target_label: MAP function — context and deployment environment
     relation: relatedMatch
   - framework: iso_42001
-    target_id: A.10
-    target_label: Third-party and customer relationships
-    relation: relatedMatch
+    target_id: A.4.2
+    target_label: A.4.2 Resources (human/competence) + A.4.3 Tooling + A.3 Internal organization
+    relation: exactMatch
+  - framework: nist_rmf
+    target_id: govern-2
+    target_label: GOVERN 2 — accountability structures + GOVERN 4 workforce
+    relation: broadMatch
+  - framework: eu_ai_act
+    target_id: article-4
+    target_label: Article 4 — AI literacy + Article 26 deployer obligations
+    relation: closeMatch
+  - framework: oecd
+    target_id: recommendation-2.4
+    target_label: Building human capacity & preparing for labour-market transition
+    relation: closeMatch
+  - framework: aiuc1
+    target_id: E.4
+    target_label: Assign accountability + E.10 Regulatory compliance + E.12 QMS
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: governance-skill-gaps
+    target_label: Non-technical → Governance + Skill gaps + Vendor risk
+    relation: closeMatch
 - id: org-preparedness
   type: subcategory
   broader: organisational-readiness
@@ -2951,6 +3097,19 @@ concepts:
   scope: ALL
   lifecycle_stages:
   - pre-processing
+  mappings:
+  - framework: iso_42001
+    target_id: A.4.2
+    target_label: A.4.2 Resources — human / competence and awareness
+    relation: closeMatch
+  - framework: eu_ai_act
+    target_id: article-4
+    target_label: Article 4 — AI literacy of staff
+    relation: closeMatch
+  - framework: nist_rmf
+    target_id: govern-4
+    target_label: GOVERN 4 — culture and AI risk awareness
+    relation: closeMatch
 - id: technical-interoperability
   type: subcategory
   broader: organisational-readiness
@@ -2964,6 +3123,11 @@ concepts:
   lifecycle_stages:
   - pre-processing
   - post-processing
+  mappings:
+  - framework: iso_42001
+    target_id: A.4.3
+    target_label: A.4.3 Tooling for AI systems
+    relation: closeMatch
 - id: workflow-compatibility
   type: subcategory
   broader: organisational-readiness
@@ -2977,6 +3141,15 @@ concepts:
   scope: ALL
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: nist_rmf
+    target_id: map-3
+    target_label: MAP 3 — AI capabilities and use cases (context fit)
+    relation: closeMatch
+  - framework: iso_42001
+    target_id: A.6.2.5
+    target_label: A.6.2.5 AI system deployment
+    relation: closeMatch
 - id: deployment-sustainability
   type: subcategory
   broader: organisational-readiness
@@ -2990,6 +3163,19 @@ concepts:
   scope: ALL
   lifecycle_stages:
   - post-processing
+  mappings:
+  - framework: iso_42001
+    target_id: A.10
+    target_label: A.10 Third-party and customer relationships
+    relation: closeMatch
+  - framework: ibm_atlas
+    target_id: vendor-lock-in
+    target_label: Non-technical → Vendor lock-in / dependency on third-party model
+    relation: closeMatch
+  - framework: nist_600
+    target_id: value-chain
+    target_label: Value Chain and Component Integration
+    relation: closeMatch
 - id: institutional-capacity
   type: subcategory
   broader: organisational-readiness
@@ -3003,3 +3189,12 @@ concepts:
   scope: ALL
   lifecycle_stages:
   - pre-processing
+  mappings:
+  - framework: oecd
+    target_id: recommendation-2.4
+    target_label: Building human capacity & preparing for labour-market transition
+    relation: closeMatch
+  - framework: mit
+    target_id: subdomain-6.2
+    target_label: Increased inequality and decline in employment quality
+    relation: relatedMatch
