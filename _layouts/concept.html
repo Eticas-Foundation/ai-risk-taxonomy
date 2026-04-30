@@ -22,15 +22,27 @@
   </style>
 </head>
 <body>
+  {% comment %}
+    Pages live in either /risk/ or /risk-internal/. Detect which one we're in
+    so the nav and footer links stay within the same view (public vs internal).
+  {% endcomment %}
+  {% if page.url contains '/risk-internal/' %}
+    {% assign risk_base = '/risk-internal' %}
+    {% assign view_label = 'All categories (internal)' %}
+  {% else %}
+    {% assign risk_base = '/risk' %}
+    {% assign view_label = 'All categories' %}
+  {% endif %}
+
   <div class="nav">
-    <a href="{{ site.baseurl }}/risk/">← All categories</a>
-    {% if page.broader %}<a href="{{ site.baseurl }}/risk/{{ page.broader }}.html">↑ {{ page.broader }}</a>{% endif %}
+    <a href="{{ site.baseurl }}{{ risk_base }}/">← {{ view_label }}</a>
+    {% if page.broader %}<a href="{{ site.baseurl }}{{ risk_base }}/{{ page.broader }}.html">↑ {{ page.broader }}</a>{% endif %}
   </div>
 
   {{ content }}
 
   <div class="footer">
-    Part of the <a href="{{ site.baseurl }}/risk/">Eticas AI Risk Taxonomy</a>.
+    Part of the <a href="{{ site.baseurl }}{{ risk_base }}/">Eticas AI Risk Taxonomy</a>.
     URI: <code>{{ page.uri }}</code>
   </div>
 </body>
