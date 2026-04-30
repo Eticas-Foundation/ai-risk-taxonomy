@@ -1103,9 +1103,12 @@ concepts:
     target_id: article-14
     target_label: Article 14 — Human oversight
     relation: relatedMatch
+  status: retired
+  retirement_note: Dissolved in v0.3. human-oversight-control moved to Accountability (oversight is fundamentally an accountability
+    concern); data-governance moved to Compliance & process (data-related compliance and process management).
 - id: data-governance
   type: subcategory
-  broader: governance-data-oversight
+  broader: governance-compliance
   maturity: emerging
   label: Data governance
   definition: 'Inadequate labelling, tagging, approval, or appropriateness assessment of data, leading to downstream issues
@@ -1118,7 +1121,7 @@ concepts:
   source: HRA
 - id: human-oversight-control
   type: subcategory
-  broader: governance-data-oversight
+  broader: governance-accountability
   maturity: emerging
   label: Human oversight and control
   definition: 'Lack of defined intervention points, override capabilities, or human review mechanisms, allowing issues and
